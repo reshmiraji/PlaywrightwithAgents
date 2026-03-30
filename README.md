@@ -71,7 +71,7 @@ baseURL: 'https://test-cmm.origincrossmedia.com/'
 
 ### Test Credentials
 Default test credentials are stored in `tests/fixtures/testData.ts`:
-- Username: reshmi.raji@accenture.com
+- Username: xxx
 - Password: Welcome@124
 
 ### Browser Support
