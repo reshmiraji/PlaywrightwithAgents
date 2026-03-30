@@ -1,0 +1,182 @@
+{
+	"summaryPage": {
+		"summaryRow": {
+			"brand": [
+				"Vubox1",
+				"SuperBrand12"
+			],
+			"campaign": "CrossMedia_Campaign_2026-01-26T08-31-38",
+			"campaignsIncluded": [
+				"metaAquila6",
+				"OriginVubox1"
+			],
+			"startDate": "29/10/2025",
+			"endDate": "31/10/2025",
+			"demographic": "Female, 16-34; Female, 35-54; Female, 55+; Male, 16-34; Male, 35-54; Male, 55+; ",
+			"universeSize": 3000000,
+			"mediaFilters": [
+				{
+					"mediaType": "DISPLAY",
+					"impressionFilter": "All Measurable Impressions",
+					"viewability": "No filter",
+					"digitalVideoCompletionStatus": "N/A"
+				},
+				{
+					"mediaType": "OTHER",
+					"impressionFilter": "All Measurable Impressions",
+					"viewability": "No filter",
+					"digitalVideoCompletionStatus": "N/A"
+				}
+			]
+		}
+	},
+	"campaignDataMap": {
+		"Total Campaign": [
+			{
+				"publishers": [
+					"Fastflix",
+					"Vubox"
+				],
+				"mediaType": [
+					"Display",
+					"Other"
+				],
+				"impressionFilter": "All Measurable Impressions",
+				"totalReachPercentages": {
+					"Total Reach (1+)%": "0.66 %",
+					"Total Reach (2+)%": "0.07 %",
+					"Total Reach (3+)%": "0.02 %",
+					"Total Reach (4+)%": "0.02 %",
+					"Total Reach (5+)%": "0.02 %",
+					"Total Reach (6+)%": "0.02 %",
+					"Total Reach (7+)%": "0.01 %",
+					"Total Reach (8+)%": "0.01 %",
+					"Total Reach (9+)%": "0.01 %",
+					"Total Reach (10+)%": "0.01 %",
+					"Total Reach (11+)%": "0.01 %",
+					"Total Reach (12+)%": "0.01 %",
+					"Total Reach (13+)%": "0.01 %",
+					"Total Reach (14+)%": "0.0 %",
+					"Total Reach (15+)%": "N/A"
+				},
+				"totalReach": {
+					"Total Reach (1+)": "19687",
+					"Total Reach (2+)": "2105",
+					"Total Reach (3+)": "749",
+					"Total Reach (4+)": "749",
+					"Total Reach (5+)": "749",
+					"Total Reach (6+)": "741",
+					"Total Reach (7+)": "412",
+					"Total Reach (8+)": "317",
+					"Total Reach (9+)": "317",
+					"Total Reach (10+)": "277",
+					"Total Reach (11+)": "211",
+					"Total Reach (12+)": "211",
+					"Total Reach (13+)": "211",
+					"Total Reach (14+)": "94",
+					"Total Reach (15+)": "0"
+				},
+				"type": "regular",
+				"grps": "0.9"
+			}
+		],
+		"Vubox": [
+			{
+				"publishers": [
+					"Vubox"
+				],
+				"mediaType": [
+					"Display"
+				],
+				"impressionFilter": "All Measurable Impressions",
+				"totalReachPercentages": {
+					"Total Reach (1+)%": "0.46 %",
+					"Total Reach (2+)%": "0.05 %",
+					"Total Reach (3+)%": "0.0 %",
+					"Total Reach (4+)%": "0.0 %",
+					"Total Reach (5+)%": "0.0 %",
+					"Total Reach (6+)%": "N/A",
+					"Total Reach (7+)%": "N/A",
+					"Total Reach (8+)%": "N/A",
+					"Total Reach (9+)%": "N/A",
+					"Total Reach (10+)%": "N/A",
+					"Total Reach (11+)%": "N/A",
+					"Total Reach (12+)%": "N/A",
+					"Total Reach (13+)%": "N/A",
+					"Total Reach (14+)%": "N/A",
+					"Total Reach (15+)%": "N/A"
+				},
+				"totalReach": {
+					"Total Reach (1+)": "13663",
+					"Total Reach (2+)": "1425",
+					"Total Reach (3+)": "4",
+					"Total Reach (4+)": "4",
+					"Total Reach (5+)": "4",
+					"Total Reach (6+)": "0",
+					"Total Reach (7+)": "0",
+					"Total Reach (8+)": "0",
+					"Total Reach (9+)": "0",
+					"Total Reach (10+)": "0",
+					"Total Reach (11+)": "0",
+					"Total Reach (12+)": "0",
+					"Total Reach (13+)": "0",
+					"Total Reach (14+)": "0",
+					"Total Reach (15+)": "0"
+				},
+				"type": "regular",
+				"grps": "0.5"
+			}
+		],
+		"Fastflix": [
+			{
+				"publishers": [
+					"Fastflix"
+				],
+				"mediaType": [
+					"Other"
+				],
+				"impressionFilter": "All Measurable Impressions",
+				"totalReachPercentages": {
+					"Total Reach (1+)%": "0.27 %",
+					"Total Reach (2+)%": "0.03 %",
+					"Total Reach (3+)%": "0.03 %",
+					"Total Reach (4+)%": "0.02 %",
+					"Total Reach (5+)%": "0.02 %",
+					"Total Reach (6+)%": "0.02 %",
+					"Total Reach (7+)%": "0.01 %",
+					"Total Reach (8+)%": "0.0 %",
+					"Total Reach (9+)%": "0.0 %",
+					"Total Reach (10+)%": "0.0 %",
+					"Total Reach (11+)%": "0.0 %",
+					"Total Reach (12+)%": "N/A",
+					"Total Reach (13+)%": "N/A",
+					"Total Reach (14+)%": "N/A",
+					"Total Reach (15+)%": "N/A"
+				},
+				"totalReach": {
+					"Total Reach (1+)": "8075",
+					"Total Reach (2+)": "767",
+					"Total Reach (3+)": "767",
+					"Total Reach (4+)": "459",
+					"Total Reach (5+)": "459",
+					"Total Reach (6+)": "459",
+					"Total Reach (7+)": "318",
+					"Total Reach (8+)": "131",
+					"Total Reach (9+)": "131",
+					"Total Reach (10+)": "131",
+					"Total Reach (11+)": "40",
+					"Total Reach (12+)": "0",
+					"Total Reach (13+)": "0",
+					"Total Reach (14+)": "0",
+					"Total Reach (15+)": "0"
+				},
+				"type": "regular",
+				"grps": "0.39"
+			}
+		]
+	},
+	"reportName": "20260126 CrossMedia_Display_Video_Other_2026-01-26T08-31-38",
+	"originalReportName": "CrossMedia_Display_Video_Other_2026-01-26T08-31-38",
+	"demographicSlicing": false,
+	"haloReportId": "measurementConsumers/Ceq6zPONCi0/reports/afea2611f4e48ed8e76569857a980dc"
+}

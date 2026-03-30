@@ -1,0 +1,17 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="16.207810999999985">
+<testsuite name="RegressionTestUIOriginTST.spec.ts" timestamp="2026-02-20T06:43:21.921Z" hostname="chromium" tests="1" failures="0" skipped="0" time="10.686" errors="0">
+<testcase name="Regression Pack › PDH-T745 Verify report name uniqueness" classname="RegressionTestUIOriginTST.spec.ts" time="10.686">
+<system-out>
+<![CDATA[🔐 Loading credentials for STG environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Attempted to create report with name: SingleEDP_Other
+✓ Verified: Duplicate report name error displayed - "This report name is already in use within your organization. Please enter a new name."
+ℹ Duplicate report name confirmed; exiting this test flow from createReportUniqueness.
+✓ Verified: Report name "SingleEDP_Other" is identified as duplicate.
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

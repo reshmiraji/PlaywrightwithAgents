@@ -1,0 +1,644 @@
+<testsuites id="" name="" tests="40" failures="40" skipped="0" errors="0" time="118.520961">
+<testsuite name="RegressionTestUIOriginTST.spec.ts" timestamp="2026-02-20T06:19:10.390Z" hostname="chromium" tests="40" failures="40" skipped="0" time="0.171" errors="0">
+<testcase name="Regression Pack › PDH-1570 Single EDP Single Mediatype - Display" classname="RegressionTestUIOriginTST.spec.ts" time="0.004">
+<failure message="RegressionTestUIOriginTST.spec.ts:16:9 PDH-1570 Single EDP Single Mediatype - Display" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:16:9 › Regression Pack › PDH-1570 Single EDP Single Mediatype - Display 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-659 Create a report with multiple EDP" classname="RegressionTestUIOriginTST.spec.ts" time="0.005">
+<failure message="RegressionTestUIOriginTST.spec.ts:37:9 PDH-659 Create a report with multiple EDP" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:37:9 › Regression Pack › PDH-659 Create a report with multiple EDP 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-952 Verify media type filter dropdown is displaying in Campaign page" classname="RegressionTestUIOriginTST.spec.ts" time="0.004">
+<failure message="RegressionTestUIOriginTST.spec.ts:69:9 PDH-952 Verify media type filter dropdown is displaying in Campaign page" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:69:9 › Regression Pack › PDH-952 Verify media type filter dropdown is displaying in Campaign page 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-491 Verify to Media Type Column has values " classname="RegressionTestUIOriginTST.spec.ts" time="0.002">
+<failure message="RegressionTestUIOriginTST.spec.ts:80:9 PDH-491 Verify to Media Type Column has values " type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:80:9 › Regression Pack › PDH-491 Verify to Media Type Column has values  
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-491 UAT Verify to Media Type Column has values " classname="RegressionTestUIOriginTST.spec.ts" time="0.003">
+<failure message="RegressionTestUIOriginTST.spec.ts:99:9 PDH-491 UAT Verify to Media Type Column has values " type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:99:9 › Regression Pack › PDH-491 UAT Verify to Media Type Column has values  
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T650 Create campaign group with at least one event group with metadata" classname="RegressionTestUIOriginTST.spec.ts" time="0.003">
+<failure message="RegressionTestUIOriginTST.spec.ts:118:9 PDH-T650 Create campaign group with at least one event group with metadata" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:118:9 › Regression Pack › PDH-T650 Create campaign group with at least one event group with metadata 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T653 The Campaign group name can contain alphanumeric values" classname="RegressionTestUIOriginTST.spec.ts" time="0.005">
+<failure message="RegressionTestUIOriginTST.spec.ts:142:9 PDH-T653 The Campaign group name can contain alphanumeric values" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:142:9 › Regression Pack › PDH-T653 The Campaign group name can contain alphanumeric values 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T673 The Batch Report name can contain alphanumeric values" classname="RegressionTestUIOriginTST.spec.ts" time="0.012">
+<failure message="RegressionTestUIOriginTST.spec.ts:164:9 PDH-T673 The Batch Report name can contain alphanumeric values" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:164:9 › Regression Pack › PDH-T673 The Batch Report name can contain alphanumeric values 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T652 Create the campaign group  name with unique name" classname="RegressionTestUIOriginTST.spec.ts" time="0.005">
+<failure message="RegressionTestUIOriginTST.spec.ts:186:9 PDH-T652 Create the campaign group  name with unique name" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:186:9 › Regression Pack › PDH-T652 Create the campaign group  name with unique name 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T670 Create the batch report where the start date must be before or the same as end date" classname="RegressionTestUIOriginTST.spec.ts" time="0.011">
+<failure message="RegressionTestUIOriginTST.spec.ts:210:9 PDH-T670 Create the batch report where the start date must be before or the same as end date" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:210:9 › Regression Pack › PDH-T670 Create the batch report where the start date must be before or the same as end date 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T658 Campaign Group Name cannot be empty or null" classname="RegressionTestUIOriginTST.spec.ts" time="0.004">
+<failure message="RegressionTestUIOriginTST.spec.ts:231:9 PDH-T658 Campaign Group Name cannot be empty or null" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:231:9 › Regression Pack › PDH-T658 Campaign Group Name cannot be empty or null 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T656 The Campaign group name contains &lt;1 or &gt;255 chars" classname="RegressionTestUIOriginTST.spec.ts" time="0.002">
+<failure message="RegressionTestUIOriginTST.spec.ts:245:9 PDH-T656 The Campaign group name contains &lt;1 or &gt;255 chars" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:245:9 › Regression Pack › PDH-T656 The Campaign group name contains <1 or >255 chars 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T675 The Campaign group name contain &lt;1 or &gt;246 chars" classname="RegressionTestUIOriginTST.spec.ts" time="0.003">
+<failure message="RegressionTestUIOriginTST.spec.ts:259:9 PDH-T675 The Campaign group name contain &lt;1 or &gt;246 chars" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:259:9 › Regression Pack › PDH-T675 The Campaign group name contain <1 or >246 chars 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T654 The Report  name cannot be empty" classname="RegressionTestUIOriginTST.spec.ts" time="0.004">
+<failure message="RegressionTestUIOriginTST.spec.ts:280:9 PDH-T654 The Report  name cannot be empty" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:280:9 › Regression Pack › PDH-T654 The Report  name cannot be empty 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T655 The Batch Report name contain between 1 and 255 chars" classname="RegressionTestUIOriginTST.spec.ts" time="0.004">
+<failure message="RegressionTestUIOriginTST.spec.ts:291:9 PDH-T655 The Batch Report name contain between 1 and 255 chars" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:291:9 › Regression Pack › PDH-T655 The Batch Report name contain between 1 and 255 chars 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T659 Create Batch Report" classname="RegressionTestUIOriginTST.spec.ts" time="0.005">
+<failure message="RegressionTestUIOriginTST.spec.ts:302:9 PDH-T659 Create Batch Report" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:302:9 › Regression Pack › PDH-T659 Create Batch Report 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T66 TV event group displayed successfully" classname="RegressionTestUIOriginTST.spec.ts" time="0.003">
+<failure message="RegressionTestUIOriginTST.spec.ts:322:9 PDH-T66 TV event group displayed successfully" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:322:9 › Regression Pack › PDH-T66 TV event group displayed successfully 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T1572 Single EDP Single Mediatype - Video" classname="RegressionTestUIOriginTST.spec.ts" time="0.002">
+<failure message="RegressionTestUIOriginTST.spec.ts:346:9 PDH-T1572 Single EDP Single Mediatype - Video" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:346:9 › Regression Pack › PDH-T1572 Single EDP Single Mediatype - Video 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T1574 Single EDP Single Mediatype - Other" classname="RegressionTestUIOriginTST.spec.ts" time="0.004">
+<failure message="RegressionTestUIOriginTST.spec.ts:367:9 PDH-T1574 Single EDP Single Mediatype - Other" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:367:9 › Regression Pack › PDH-T1574 Single EDP Single Mediatype - Other 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T1576 Cross Media - Display and Other" classname="RegressionTestUIOriginTST.spec.ts" time="0.003">
+<failure message="RegressionTestUIOriginTST.spec.ts:391:9 PDH-T1576 Cross Media - Display and Other" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:391:9 › Regression Pack › PDH-T1576 Cross Media - Display and Other 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-761 Verify Updated Cumulative Reach tabs for cross-media type report" classname="RegressionTestUIOriginTST.spec.ts" time="0.009">
+<failure message="RegressionTestUIOriginTST.spec.ts:425:9 PDH-761 Verify Updated Cumulative Reach tabs for cross-media type report" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:425:9 › Regression Pack › PDH-761 Verify Updated Cumulative Reach tabs for cross-media type report 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T79 Verify of all publisher on channel aligned with data provider based on their campaign selections" classname="RegressionTestUIOriginTST.spec.ts" time="0.004">
+<failure message="RegressionTestUIOriginTST.spec.ts:459:9 PDH-T79 Verify of all publisher on channel aligned with data provider based on their campaign selections" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:459:9 › Regression Pack › PDH-T79 Verify of all publisher on channel aligned with data provider based on their campaign selections 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-981 Verify a combined search functionality and getting a successful results" classname="RegressionTestUIOriginTST.spec.ts" time="0.006">
+<failure message="RegressionTestUIOriginTST.spec.ts:491:9 PDH-981 Verify a combined search functionality and getting a successful results" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:491:9 › Regression Pack › PDH-981 Verify a combined search functionality and getting a successful results 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T1313	Clicking on Log out button during report building process" classname="RegressionTestUIOriginTST.spec.ts" time="0.003">
+<failure message="RegressionTestUIOriginTST.spec.ts:507:9 PDH-T1313	Clicking on Log out button during report building process" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:507:9 › Regression Pack › PDH-T1313	Clicking on Log out button during report building process 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T382 Verify of Validate user consent in the context of a cookie banner" classname="RegressionTestUIOriginTST.spec.ts" time="0.005">
+<failure message="RegressionTestUIOriginTST.spec.ts:516:9 PDH-T382 Verify of Validate user consent in the context of a cookie banner" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:516:9 › Regression Pack › PDH-T382 Verify of Validate user consent in the context of a cookie banner 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T1060 Verify dashboard page paginationOrigin " classname="RegressionTestUIOriginTST.spec.ts" time="0.003">
+<failure message="RegressionTestUIOriginTST.spec.ts:524:9 PDH-T1060 Verify dashboard page paginationOrigin " type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:524:9 › Regression Pack › PDH-T1060 Verify dashboard page paginationOrigin  
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T1060 Verify dashboard page pagination" classname="RegressionTestUIOriginTST.spec.ts" time="0.002">
+<failure message="RegressionTestUIOriginTST.spec.ts:533:9 PDH-T1060 Verify dashboard page pagination" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:533:9 › Regression Pack › PDH-T1060 Verify dashboard page pagination 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T1051 Verify Created by filter functionality from Dashboard " classname="RegressionTestUIOriginTST.spec.ts" time="0.005">
+<failure message="RegressionTestUIOriginTST.spec.ts:541:9 PDH-T1051 Verify Created by filter functionality from Dashboard " type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:541:9 › Regression Pack › PDH-T1051 Verify Created by filter functionality from Dashboard  
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T1488 Privacy Notice updated to final version with the correct version of the Privacy Notice with Origin Media Measurement Limited as company name" classname="RegressionTestUIOriginTST.spec.ts" time="0.005">
+<failure message="RegressionTestUIOriginTST.spec.ts:549:9 PDH-T1488 Privacy Notice updated to final version with the correct version of the Privacy Notice with Origin Media Measurement Limited as company name" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:549:9 › Regression Pack › PDH-T1488 Privacy Notice updated to final version with the correct version of the Privacy Notice with Origin Media Measurement Limited as company name 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T1182 Verify an Audit banner is displaying on Review report page" classname="RegressionTestUIOriginTST.spec.ts" time="0.004">
+<failure message="RegressionTestUIOriginTST.spec.ts:572:9 PDH-T1182 Verify an Audit banner is displaying on Review report page" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:572:9 › Regression Pack › PDH-T1182 Verify an Audit banner is displaying on Review report page 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH- T1251 Verify removed Cumulative reach data label when campaign period filter is less than 1week" classname="RegressionTestUIOriginTST.spec.ts" time="0.013">
+<failure message="RegressionTestUIOriginTST.spec.ts:600:9 PDH- T1251 Verify removed Cumulative reach data label when campaign period filter is less than 1week" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:600:9 › Regression Pack › PDH- T1251 Verify removed Cumulative reach data label when campaign period filter is less than 1week 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T1343 Feature Flag for Total Reach frequency 15+ (Set to ON)" classname="RegressionTestUIOriginTST.spec.ts" time="0.003">
+<failure message="RegressionTestUIOriginTST.spec.ts:621:9 PDH-T1343 Feature Flag for Total Reach frequency 15+ (Set to ON)" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:621:9 › Regression Pack › PDH-T1343 Feature Flag for Total Reach frequency 15+ (Set to ON) 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T1019 Verify the renamed title of &quot;Search for adverts&quot;" classname="RegressionTestUIOriginTST.spec.ts" time="0.003">
+<failure message="RegressionTestUIOriginTST.spec.ts:642:9 PDH-T1019 Verify the renamed title of &quot;Search for adverts&quot;" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:642:9 › Regression Pack › PDH-T1019 Verify the renamed title of "Search for adverts" 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T952 Verify media type filter button is displaying in Campaign page" classname="RegressionTestUIOriginTST.spec.ts" time="0.003">
+<failure message="RegressionTestUIOriginTST.spec.ts:653:9 PDH-T952 Verify media type filter button is displaying in Campaign page" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:653:9 › Regression Pack › PDH-T952 Verify media type filter button is displaying in Campaign page 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-1508 Nods Media Type must be Preselected by default" classname="RegressionTestUIOriginTST.spec.ts" time="0.002">
+<failure message="RegressionTestUIOriginTST.spec.ts:662:9 PDH-1508 Nods Media Type must be Preselected by default" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:662:9 › Regression Pack › PDH-1508 Nods Media Type must be Preselected by default 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T491 Verify to Media Type Column has values" classname="RegressionTestUIOriginTST.spec.ts" time="0.002">
+<failure message="RegressionTestUIOriginTST.spec.ts:671:9 PDH-T491 Verify to Media Type Column has values" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:671:9 › Regression Pack › PDH-T491 Verify to Media Type Column has values 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T1018 Verify the functionality of Advert and Brand name search " classname="RegressionTestUIOriginTST.spec.ts" time="0.004">
+<failure message="RegressionTestUIOriginTST.spec.ts:684:9 PDH-T1018 Verify the functionality of Advert and Brand name search " type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:684:9 › Regression Pack › PDH-T1018 Verify the functionality of Advert and Brand name search  
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-425 Verify of User de-selects a column " classname="RegressionTestUIOriginTST.spec.ts" time="0.002">
+<failure message="RegressionTestUIOriginTST.spec.ts:697:9 PDH-425 Verify of User de-selects a column " type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:697:9 › Regression Pack › PDH-425 Verify of User de-selects a column  
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-426 Verify to User re-selects a column" classname="RegressionTestUIOriginTST.spec.ts" time="0.002">
+<failure message="RegressionTestUIOriginTST.spec.ts:708:9 PDH-426 Verify to User re-selects a column" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:708:9 › Regression Pack › PDH-426 Verify to User re-selects a column 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Regression Pack › PDH-T745 Verify report name uniqueness" classname="RegressionTestUIOriginTST.spec.ts" time="0.003">
+<failure message="RegressionTestUIOriginTST.spec.ts:720:9 PDH-T745 Verify report name uniqueness" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:720:9 › Regression Pack › PDH-T745 Verify report name uniqueness 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\reshmi.raji\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+</testsuites>

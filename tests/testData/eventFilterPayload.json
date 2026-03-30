@@ -1,0 +1,102 @@
+{
+    "validationData": {
+        "tvSpotFlag": "BOTH",
+        "tvEdps": [
+            {
+                "edp_id": "dataProviders/c4gsYiJmHo4"
+            }
+        ],
+        "nonTvEdps": [
+            {
+                "edp_id": "dataProviders/GYPvFN2Z4Ug"
+            },
+            {
+                "edp_id": "dataProviders/SVf4UiJmHl4"
+            },
+            {
+                "edp_id": "dataProviders/XH0bvt2Z4Rs"
+            }
+        ],
+        "publishers": [
+            {
+                "id": "dataProviders/GYPvFN2Z4Ug",
+                "name": "Fastflix",
+                "status": true,
+                "channel": "digital",
+                "timeLag": 3,
+                "dayRange": 89,
+                "availabilityDateFrom": "20-07-2025",
+                "availabilityDateTo": "14-10-2025"
+            },
+            {
+                "id": "dataProviders/SVf4UiJmHl4",
+                "name": "Vubox",
+                "status": true,
+                "channel": "digital",
+                "timeLag": 7,
+                "dayRange": 210,
+                "availabilityDateFrom": "21-03-2025",
+                "availabilityDateTo": "10-10-2025"
+            },
+            {
+                "id": "dataProviders/c4gsYiJmHo4",
+                "name": "Linear TV",
+                "status": true,
+                "channel": "Linear TV",
+                "timeLag": 9,
+                "dayRange": 210,
+                "availabilityDateFrom": "21-03-2025",
+                "availabilityDateTo": "08-10-2025"
+            },
+            {
+                "id": "dataProviders/XH0bvt2Z4Rs",
+                "name": "QuickReel",
+                "status": true,
+                "channel": "digital",
+                "timeLag": 0,
+                "dayRange": 89,
+                "availabilityDateFrom": "20-07-2025",
+                "availabilityDateTo": "17-10-2025"
+            }
+        ],
+        "dayRangeMap": {
+            "dataProviders/GYPvFN2Z4Ug": 89,
+            "dataProviders/SVf4UiJmHl4": 210,
+            "dataProviders/c4gsYiJmHo4": 210,
+            "dataProviders/XH0bvt2Z4Rs": 89
+        },
+        "timeLagMap": {
+            "dataProviders/GYPvFN2Z4Ug": 3,
+            "dataProviders/SVf4UiJmHl4": 7,
+            "dataProviders/c4gsYiJmHo4": 9,
+            "dataProviders/XH0bvt2Z4Rs": 0
+        }
+    },
+    "campaign": {
+        "mc": "measurementConsumers/Ceq6zPONCi0",
+        "filters": [
+            {
+                "mediaType": [
+                    "Display",
+                    "Video",
+                    "Other"
+                ]
+            }
+        ],
+        "edps": [
+            {
+                "edp_id": "dataProviders/GYPvFN2Z4Ug"
+            },
+            {
+                "edp_id": "dataProviders/SVf4UiJmHl4"
+            },
+            {
+                "edp_id": "dataProviders/c4gsYiJmHo4"
+            },
+            {
+                "edp_id": "dataProviders/XH0bvt2Z4Rs"
+            }
+        ],
+        "version": "v2"
+    }
+}

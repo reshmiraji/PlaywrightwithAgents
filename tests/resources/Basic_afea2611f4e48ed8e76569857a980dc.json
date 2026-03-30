@@ -1,0 +1,106 @@
+{
+  "cmmsMeasurementConsumerId": "Ceq6zPONCi0",
+  "externalBasicReportId": "afea2611f4e48ed8e76569857a980dc",
+  "externalCampaignGroupId": "a1598df1cf4d359487671ff8decedc",
+  "campaignGroupDisplayName": "CrossMedia_Campaign_2026-01-26T08-31-38",
+  "resultDetails": {
+    "resultGroups": [{
+      "title": "Regular AMI CEL:[FEMALE_AGE_GROUP1, FEMALE_AGE_GROUP2, FEMALE_AGE_GROUP3, MALE_AGE_GROUP1, MALE_AGE_GROUP2, MALE_AGE_GROUP3]",
+      "results": [{
+        "metadata": {
+          "reportingUnitSummary": {
+            "reportingUnitComponentSummary": [{
+              "cmmsDataProviderId": "GYPvFN2Z4Ug",
+              "cmmsDataProviderDisplayName": "Fastflix",
+              "eventGroupSummaries": [{
+                "cmmsMeasurementConsumerId": "Ceq6zPONCi0",
+                "cmmsEventGroupId": "O2dvIt67HVQ"
+              }]
+            }, {
+              "cmmsDataProviderId": "SVf4UiJmHl4",
+              "cmmsDataProviderDisplayName": "Vubox",
+              "eventGroupSummaries": [{
+                "cmmsMeasurementConsumerId": "Ceq6zPONCi0",
+                "cmmsEventGroupId": "auOEbCFCiXk"
+              }]
+            }]
+          },
+          "nonCumulativeMetricStartTime": "2025-10-29T00:00:00Z",
+          "metricEndTime": "2025-11-01T00:00:00Z",
+          "metricFrequencySpec": {
+            "total": true
+          },
+          "dimensionSpecSummary": {
+            "filters": [{
+            }]
+          },
+          "filter": {
+            "filterSpecs": [{
+              "mediaType": "DISPLAY"
+            }, {
+              "mediaType": "OTHER"
+            }]
+          }
+        },
+        "metricSet": {
+          "populationSize": 3000000,
+          "reportingUnit": {
+            "nonCumulative": {
+              "reach": 19691,
+              "percentReach": 0.65636665,
+              "kPlusReach": [19687, 2105, 749, 749, 749, 741, 412, 317, 317, 277, 211, 211, 211, 94, 0],
+              "percentKPlusReach": [0.66, 0.07, 0.02, 0.02, 0.02, 0.02, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.0, 0.0],
+              "averageFrequency": 1.36,
+              "impressions": 26868,
+              "grps": 0.9
+            }
+          },
+          "components": [{
+            "key": "SVf4UiJmHl4",
+            "value": {
+              "nonCumulative": {
+                "reach": 13665,
+                "percentReach": 0.4555,
+                "kPlusReach": [13663, 1425, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                "percentKPlusReach": [0.46, 0.05, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                "averageFrequency": 1.11,
+                "impressions": 15106,
+                "grps": 0.5
+              }
+            }
+          }, {
+            "key": "GYPvFN2Z4Ug",
+            "value": {
+              "nonCumulative": {
+                "reach": 8079,
+                "percentReach": 0.2693,
+                "kPlusReach": [8075, 767, 767, 459, 459, 459, 318, 131, 131, 131, 40, 0, 0, 0, 0],
+                "percentKPlusReach": [0.27, 0.03, 0.03, 0.02, 0.02, 0.02, 0.01, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                "averageFrequency": 1.46,
+                "impressions": 11762,
+                "grps": 0.39
+              }
+            }
+          }]
+        }
+      }]
+    }]
+  },
+  "details": {
+    "title": "CrossMedia_Display_Video_Other_2026-01-26T08-31-38",
+    "reportingInterval": {
+      "reportStart": {
+        "year": 2025,
+        "month": 10,
+        "day": 29,
+        "utcOffset": "0s"
+      },
+      "reportEnd": {
+        "year": 2025,
+        "month": 11,
+        "day": 1
+      }
+    }
+  },
+  "createTime": "2026-01-26T08:31:54.078677Z"
+}

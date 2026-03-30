@@ -1,0 +1,230 @@
+{
+  "cmmsMeasurementConsumerId": "Ceq6zPONCi0",
+  "externalBasicReportId": "bccd018cbe2849bb94d1ce1643f18fbc",
+  "externalCampaignGroupId": "e1bf75561e44498b5a07b3a3f7d807d",
+  "campaignGroupDisplayName": "CrossMedia_Campaign_2026-01-26T14-53-25",
+  "resultDetails": {
+    "resultGroups": [{
+      "title": "Cumulative AMI week1 CEL:[FEMALE_AGE_GROUP1, FEMALE_AGE_GROUP2, FEMALE_AGE_GROUP3, MALE_AGE_GROUP1, MALE_AGE_GROUP2, MALE_AGE_GROUP3]",
+      "results": [{
+        "metadata": {
+          "reportingUnitSummary": {
+            "reportingUnitComponentSummary": [{
+              "cmmsDataProviderId": "GYPvFN2Z4Ug",
+              "cmmsDataProviderDisplayName": "Fastflix",
+              "eventGroupSummaries": [{
+                "cmmsMeasurementConsumerId": "Ceq6zPONCi0",
+                "cmmsEventGroupId": "O2dvIt67HVQ"
+              }]
+            }, {
+              "cmmsDataProviderId": "SVf4UiJmHl4",
+              "cmmsDataProviderDisplayName": "Vubox",
+              "eventGroupSummaries": [{
+                "cmmsMeasurementConsumerId": "Ceq6zPONCi0",
+                "cmmsEventGroupId": "auOEbCFCiXk"
+              }]
+            }]
+          },
+          "cumulativeMetricStartTime": "2025-10-29T00:00:00Z",
+          "metricEndTime": "2025-11-05T00:00:00Z",
+          "metricFrequencySpec": {
+            "weekly": "THURSDAY"
+          },
+          "dimensionSpecSummary": {
+            "filters": [{
+            }]
+          },
+          "filter": {
+            "filterSpecs": [{
+              "mediaType": "DISPLAY"
+            }, {
+              "mediaType": "OTHER"
+            }]
+          }
+        },
+        "metricSet": {
+          "populationSize": 3000000,
+          "reportingUnit": {
+            "cumulative": {
+              "reach": 47818
+            }
+          },
+          "components": [{
+            "key": "GYPvFN2Z4Ug",
+            "value": {
+              "cumulative": {
+                "reach": 18481
+              }
+            }
+          }, {
+            "key": "SVf4UiJmHl4",
+            "value": {
+              "cumulative": {
+                "reach": 32045
+              }
+            }
+          }]
+        }
+      }]
+    }, {
+      "title": "Cumulative AMI week2 CEL:[FEMALE_AGE_GROUP1, FEMALE_AGE_GROUP2, FEMALE_AGE_GROUP3, MALE_AGE_GROUP1, MALE_AGE_GROUP2, MALE_AGE_GROUP3]",
+      "results": [{
+        "metadata": {
+          "reportingUnitSummary": {
+            "reportingUnitComponentSummary": [{
+              "cmmsDataProviderId": "GYPvFN2Z4Ug",
+              "cmmsDataProviderDisplayName": "Fastflix",
+              "eventGroupSummaries": [{
+                "cmmsMeasurementConsumerId": "Ceq6zPONCi0",
+                "cmmsEventGroupId": "O2dvIt67HVQ"
+              }]
+            }, {
+              "cmmsDataProviderId": "SVf4UiJmHl4",
+              "cmmsDataProviderDisplayName": "Vubox",
+              "eventGroupSummaries": [{
+                "cmmsMeasurementConsumerId": "Ceq6zPONCi0",
+                "cmmsEventGroupId": "auOEbCFCiXk"
+              }]
+            }]
+          },
+          "cumulativeMetricStartTime": "2025-10-29T00:00:00Z",
+          "metricEndTime": "2025-11-07T00:00:00Z",
+          "metricFrequencySpec": {
+            "weekly": "THURSDAY"
+          },
+          "dimensionSpecSummary": {
+            "filters": [{
+            }]
+          },
+          "filter": {
+            "filterSpecs": [{
+              "mediaType": "DISPLAY"
+            }, {
+              "mediaType": "OTHER"
+            }]
+          }
+        },
+        "metricSet": {
+          "populationSize": 3000000,
+          "reportingUnit": {
+            "cumulative": {
+              "reach": 60147
+            }
+          },
+          "components": [{
+            "key": "SVf4UiJmHl4",
+            "value": {
+              "cumulative": {
+                "reach": 38671
+              }
+            }
+          }, {
+            "key": "GYPvFN2Z4Ug",
+            "value": {
+              "cumulative": {
+                "reach": 24421
+              }
+            }
+          }]
+        }
+      }]
+    }, {
+      "title": "Regular AMI CEL:[FEMALE_AGE_GROUP1, FEMALE_AGE_GROUP2, FEMALE_AGE_GROUP3, MALE_AGE_GROUP1, MALE_AGE_GROUP2, MALE_AGE_GROUP3]",
+      "results": [{
+        "metadata": {
+          "reportingUnitSummary": {
+            "reportingUnitComponentSummary": [{
+              "cmmsDataProviderId": "GYPvFN2Z4Ug",
+              "cmmsDataProviderDisplayName": "Fastflix",
+              "eventGroupSummaries": [{
+                "cmmsMeasurementConsumerId": "Ceq6zPONCi0",
+                "cmmsEventGroupId": "O2dvIt67HVQ"
+              }]
+            }, {
+              "cmmsDataProviderId": "SVf4UiJmHl4",
+              "cmmsDataProviderDisplayName": "Vubox",
+              "eventGroupSummaries": [{
+                "cmmsMeasurementConsumerId": "Ceq6zPONCi0",
+                "cmmsEventGroupId": "auOEbCFCiXk"
+              }]
+            }]
+          },
+          "nonCumulativeMetricStartTime": "2025-10-29T00:00:00Z",
+          "metricEndTime": "2025-11-07T00:00:00Z",
+          "metricFrequencySpec": {
+            "total": true
+          },
+          "dimensionSpecSummary": {
+            "filters": [{
+            }]
+          },
+          "filter": {
+            "filterSpecs": [{
+              "mediaType": "DISPLAY"
+            }, {
+              "mediaType": "OTHER"
+            }]
+          }
+        },
+        "metricSet": {
+          "populationSize": 3000000,
+          "reportingUnit": {
+            "nonCumulative": {
+              "reach": 60147,
+              "percentReach": 2.0049,
+              "kPlusReach": [60139, 7720, 1673, 985, 734, 475, 363, 310, 231, 211, 194, 145, 135, 26, 23],
+              "percentKPlusReach": [2.0, 0.26, 0.06, 0.03, 0.02, 0.02, 0.01, 0.01, 0.01, 0.01, 0.01, 0.0, 0.0, 0.0, 0.0],
+              "averageFrequency": 1.22,
+              "impressions": 73430,
+              "grps": 2.45
+            }
+          },
+          "components": [{
+            "key": "SVf4UiJmHl4",
+            "value": {
+              "nonCumulative": {
+                "reach": 38671,
+                "percentReach": 1.2890333,
+                "kPlusReach": [38669, 5699, 1116, 560, 560, 560, 560, 208, 208, 208, 0, 0, 0, 0, 0],
+                "percentKPlusReach": [1.29, 0.19, 0.04, 0.02, 0.02, 0.02, 0.02, 0.01, 0.01, 0.01, 0.0, 0.0, 0.0, 0.0, 0.0],
+                "averageFrequency": 1.25,
+                "impressions": 48357,
+                "grps": 1.61
+              }
+            }
+          }, {
+            "key": "GYPvFN2Z4Ug",
+            "value": {
+              "nonCumulative": {
+                "reach": 24421,
+                "percentReach": 0.8140333,
+                "kPlusReach": [24420, 651, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                "percentKPlusReach": [0.81, 0.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                "averageFrequency": 1.03,
+                "impressions": 25073,
+                "grps": 0.84
+              }
+            }
+          }]
+        }
+      }]
+    }]
+  },
+  "details": {
+    "title": "CrossMedia_Display_Other_CUmmulative_2026-01-26T14-53-25",
+    "reportingInterval": {
+      "reportStart": {
+        "year": 2025,
+        "month": 10,
+        "day": 29,
+        "utcOffset": "0s"
+      },
+      "reportEnd": {
+        "year": 2025,
+        "month": 11,
+        "day": 7
+      }
+    }
+  },
+  "createTime": "2026-01-26T14:53:41.598573Z"
+}

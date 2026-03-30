@@ -1,0 +1,2124 @@
+<testsuites id="" name="" tests="41" failures="4" skipped="2" errors="0" time="522.6662239999999">
+<testsuite name="RegressionTestUIOriginTST.spec.ts" timestamp="2026-03-25T10:09:23.684Z" hostname="chromium" tests="41" failures="4" skipped="2" time="500.115" errors="0">
+<testcase name="Regression Pack › PDH-1570 Single EDP Single Mediatype - Display" classname="RegressionTestUIOriginTST.spec.ts" time="25.264">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: SingleEDP_Display_2026-03-25T10-09-37
+✓ Campaign group created with name: SingleEDP_DisplayCampaign_2026-03-25T10-09-37
+✓ Display checkbox clicked
+✓ Clicked on screen to defocus
+✓ Display media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+✓ Save campaign group button clicked successfully
+✓ Campaign submitted successfully
+📅 Adding 2 days to date: 21 March 2025
+✓ Result: 21 March 2025 + 2 days = 23 Mar 2025
+📅 Cal Start date: 21 March 2025
+📅 Cal End date: 18 June 2025
+📅 Start date: 23 Mar 2025
+🗓️ Navigating to calendar date: 23 Mar 2025
+📅 Selecting date from calendar: 23 Mar 2025
+🎯 Target date parsed: 23/3/2025
+Wait for calendar to appear
+ Find month and year display element
+navigate To Target Year
+📅 Navigating to year: 2025
+Current calendar year: 2025, Target: 2025
+✓ Reached target year: 2025
+✓ year element found
+navigate To Target Month
+📅 Navigating to month: March 2025
+Current: JUNE 2025, Target: March 2025
+Current: MAY 2025, Target: March 2025
+Current: APRIL 2025, Target: March 2025
+Current: MARCH 2025, Target: March 2025
+✓ Reached target month: March 2025
+✓ Month element found
+🎯 Selecting day: 23 in March 2025
+Select the date from the calendar: 23
+🎯 Looking for day: 23
+Found 31 day elements to check
+✓ Found matching day: 23
+✓ Click successful on attempt 1
+✅ Successfully clicked on day 23
+✅ Successfully selected date: 23 Mar 2025
+🔍 Verifying date selection: 23 Mar 2025
+✅ Date successfully selected: [object Promise]
+✓ Demographics selected
+✓ Found selected date: 23 March 2025
+✓ Viewability 100% selected
+✓ Measured Impression selected
+🎯 Starting report metrics selection...
+📊 Total Reach Percentage Start value: 1
+📊 Total Reach Percentage End value: 15
+✓ Unique Reach selected via JavaScript click
+✓ Average Frequency selected via JavaScript click
+✓ Impressions selected via JavaScript click
+✅ Report metrics selection completed successfully
+✓ Report Submitted successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-659 Create a report with multiple EDP" classname="RegressionTestUIOriginTST.spec.ts" time="19.948">
+<system-out>
+<![CDATA[Parsed filter list: [ [32m'Linear TV'[39m, [32m'Fastflix'[39m, [32m'Vubox'[39m ]
+🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: Multiple_EDP_2026-03-25T10-10-00
+✓ Campaign group created with name: Multiple_EDP_Campaign_2026-03-25T10-10-00
+Processing filter: Linear TV
+✓ select first checkbox clicked
+✓ Clicked on screen to defocus
+✓ Linear TV measured entity selected
+✓ Search the Campaign group
+✓ First row from data list selected
+Processing filter: Fastflix
+✓ select second checkbox clicked
+✓ Clicked on screen to defocus
+✓ Fastflix measured entity selected
+✓ Search the Campaign group
+✓ First row from data list selected
+Processing filter: Vubox
+✓ select third checkbox clicked
+✓ Clicked on screen to defocus
+✓ Vubox measured entity selected
+✓ Search the Campaign group
+✓ First row from data list selected
+✓ First row from data list selected
+✓ Save campaign group button clicked successfully
+✓ Campaign submitted successfully
+📅 Adding 2 days to date: 26 December 2025
+✓ Result: 26 December 2025 + 2 days = 28 Dec 2025
+📅 Cal Start date: 26 December 2025
+📅 Cal End date: 21 March 2026
+📅 Start date: 28 Dec 2025
+🗓️ Navigating to calendar date: 28 Dec 2025
+📅 Selecting date from calendar: 28 Dec 2025
+🎯 Target date parsed: 28/12/2025
+Wait for calendar to appear
+ Find month and year display element
+navigate To Target Year
+📅 Navigating to year: 2025
+Current calendar year: 2026, Target: 2025
+⚠️ Year navigation button not found or disabled
+✓ year element found
+navigate To Target Month
+📅 Navigating to month: December 2025
+Current: MARCH 2026, Target: December 2025
+Current: FEBRUARY 2026, Target: December 2025
+Current: JANUARY 2026, Target: December 2025
+Current: DECEMBER 2025, Target: December 2025
+✓ Reached target month: December 2025
+✓ Month element found
+🎯 Selecting day: 28 in December 2025
+Select the date from the calendar: 28
+🎯 Looking for day: 28
+Found 31 day elements to check
+✓ Found matching day: 28
+✓ Click successful on attempt 1
+✅ Successfully clicked on day 28
+✅ Successfully selected date: 28 Dec 2025
+🔍 Verifying date selection: 28 Dec 2025
+✅ Date successfully selected: [object Promise]
+✓ Demographics selected
+✓ Found selected date: 28 December 2025
+✓ Measured Impression selected
+🎯 Starting report metrics selection...
+📊 Total Reach Percentage Start value: 1
+📊 Total Reach Percentage End value: 15
+✓ Unique Reach selected via JavaScript click
+✓ Average Frequency selected via JavaScript click
+✓ Impressions selected via JavaScript click
+✅ Report metrics selection completed successfully
+✓ Report Submitted successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-952 Verify media type filter dropdown is displaying in Campaign page" classname="RegressionTestUIOriginTST.spec.ts" time="30.138">
+<failure message="RegressionTestUIOriginTST.spec.ts:72:9 PDH-952 Verify media type filter dropdown is displaying in Campaign page" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:72:9 › Regression Pack › PDH-952 Verify media type filter dropdown is displaying in Campaign page 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for locator('//*[@id="create-report-btnundefined"]/label')
+        - locator resolved to <label for="create-report-btnundefined" data-testid="create-report-btnundefined">Create Report</label>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <div class="modal-background">…</div> from <div id="cookie-consent">…</div> subtree intercepts pointer events
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <div class="modal-background">…</div> from <div id="cookie-consent">…</div> subtree intercepts pointer events
+        - retrying click action
+          - waiting 100ms
+        43 × waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <div class="modal-background">…</div> from <div id="cookie-consent">…</div> subtree intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+
+
+       at pages\DashboardPage.ts:213
+
+      211 |
+      212 |   async createReport(reportName: string): Promise<string> {
+    > 213 |     await this.createReportBtn.click();
+          |                                ^
+      214 |     await this.page.waitForLoadState('networkidle');
+      215 |
+      216 |     const currentDateTime = new Date().toISOString().replace(/[:.]/g, '-').slice(0, -5);
+        at DashboardPage.createReport (C:\PROJECT\Automation\ISBA\e2e-automation-playwright\tests\pages\DashboardPage.ts:213:32)
+        at SmokeTestSuite.createReport (C:\PROJECT\Automation\ISBA\e2e-automation-playwright\tests\functions\smokeTestSuite.ts:87:37)
+        at C:\PROJECT\Automation\ISBA\e2e-automation-playwright\tests\RegressionTestUIOriginTST.spec.ts:76:30
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\test-run_2026-03-25_10-09-27\RegressionTestUIOriginTST--eef94-displaying-in-Campaign-page-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\test-run_2026-03-25_10-09-27\RegressionTestUIOriginTST--eef94-displaying-in-Campaign-page-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\test-run_2026-03-25_10-09-27\RegressionTestUIOriginTST--eef94-displaying-in-Campaign-page-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+
+[[ATTACHMENT|..\..\test-results\test-run_2026-03-25_10-09-27\RegressionTestUIOriginTST--eef94-displaying-in-Campaign-page-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\..\test-results\test-run_2026-03-25_10-09-27\RegressionTestUIOriginTST--eef94-displaying-in-Campaign-page-chromium\video.webm]]
+
+[[ATTACHMENT|..\..\test-results\test-run_2026-03-25_10-09-27\RegressionTestUIOriginTST--eef94-displaying-in-Campaign-page-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-491 Verify to Media Type Column has values " classname="RegressionTestUIOriginTST.spec.ts" time="30.295">
+<failure message="RegressionTestUIOriginTST.spec.ts:83:9 PDH-491 Verify to Media Type Column has values " type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:83:9 › Regression Pack › PDH-491 Verify to Media Type Column has values  
+
+    Test timeout of 30000ms exceeded.
+
+    Error: page.waitForTimeout: Test timeout of 30000ms exceeded.
+
+       at pages\CampaignPage.ts:864
+
+      862 |     // Validate Measured Entity is not empty
+      863 |     const entityValue = rowData['Measured Entity'] || '';
+    > 864 |     await this.page.waitForTimeout(200);
+          |                     ^
+      865 |     expect(entityValue.trim().length, 'Measured Entity should not be empty').toBeGreaterThan(0);
+      866 |     console.log(`✓ Measured Entity: "${entityValue}" - validated`);
+      867 |
+        at CampaignPage.validateSelectedAdvertsTable (C:\PROJECT\Automation\ISBA\e2e-automation-playwright\tests\pages\CampaignPage.ts:864:21)
+        at CampaignPage.validateCampaignTableSelectAdverts (C:\PROJECT\Automation\ISBA\e2e-automation-playwright\tests\pages\CampaignPage.ts:739:5)
+        at SmokeTestSuite.validateCampaignTableSelectAdverts (C:\PROJECT\Automation\ISBA\e2e-automation-playwright\tests\functions\smokeTestSuite.ts:150:12)
+        at C:\PROJECT\Automation\ISBA\e2e-automation-playwright\tests\RegressionTestUIOriginTST.spec.ts:97:9
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\test-run_2026-03-25_10-10-47\RegressionTestUIOriginTST--09e29-dia-Type-Column-has-values--chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\test-run_2026-03-25_10-10-47\RegressionTestUIOriginTST--09e29-dia-Type-Column-has-values--chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\test-run_2026-03-25_10-10-47\RegressionTestUIOriginTST--09e29-dia-Type-Column-has-values--chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: SingleEDP_Other_2026-03-25T10-10-57
+✓ Campaign group created with name: SingleEDP_OtherCampaign_2026-03-25T10-10-57
+✓ Other checkbox clicked
+✓ Clicked on screen to defocus
+✓ Other media type selected
+✓ Search the Campaign group
+🔍 Validating Search Results Text...
+✓ "Search results" title is visible: "Search results"
+✓ Description text is visible: "The filtered search results for adverts are shown below."
+✓ "Download results" button is visible
+✅ Search Results Text validated successfully
+🔍 Validating Table Headers and Fetching Data...
+✓ Table headers found: Advert, Brand, Measured Entity, Media Type, TV On Air Dates, Start Date, End Date, Advert, Brand, Measured Entity, Media Type, TV On Air Dates, Start date, End date
+✓ Header "Advert" is present
+✓ Header "Brand" is present
+✓ Header "Measured Entity" is present
+✓ Header "Media Type" is present
+✓ Header "TV On Air Dates" is present
+✓ Header "Start Date" is present
+✓ Header "End Date" is present
+
+📊 Fetching 10 rows from table...
+════════════════════════════════════════════════════════════
+┌─────────────────────────────────────────────────────┐
+│ ROW 1                                               │
+├─────────────────────────────────────────────────────┤
+│ Advert         : metaAquila6                        │
+│ Brand          : SuperBrand12                       │
+│ Measured Entity: Fastflix                           │
+│ Media Type     : Other                              │
+│ TV On Air Dates: -                                  │
+│ Start Date     : 12 May 2025                        │
+│ End Date       : 29 Dec 2025                        │
+└─────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────┐
+│ ROW 2                                               │
+├─────────────────────────────────────────────────────┤
+│ Advert         : metaAquila5                        │
+│ Brand          : SuperBrand11                       │
+│ Measured Entity: Fastflix                           │
+│ Media Type     : Other                              │
+│ TV On Air Dates: -                                  │
+│ Start Date     : 25 May 2025                        │
+│ End Date       : 29 Dec 2025                        │
+└─────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────┐
+│ ROW 3                                               │
+├─────────────────────────────────────────────────────┤
+│ Advert         : metaAquila3                        │
+│ Brand          : SuperBrand9                        │
+│ Measured Entity: Fastflix                           │
+│ Media Type     : Other                              │
+│ TV On Air Dates: -                                  │
+│ Start Date     : 25 May 2025                        │
+│ End Date       : 29 Dec 2025                        │
+└─────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────┐
+│ ROW 4                                               │
+├─────────────────────────────────────────────────────┤
+│ Advert         : metaAquila4                        │
+│ Brand          : SuperBrand10                       │
+│ Measured Entity: Fastflix                           │
+│ Media Type     : Other                              │
+│ TV On Air Dates: -                                  │
+│ Start Date     : 25 May 2025                        │
+│ End Date       : 27 Dec 2025                        │
+└─────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────┐
+│ ROW 5                                               │
+├─────────────────────────────────────────────────────┤
+│ Advert         : StreamZoneAquila5                  │
+│ Brand          : StreamZone10                       │
+│ Measured Entity: StreamZone                         │
+│ Media Type     : Other                              │
+│ TV On Air Dates: -                                  │
+│ Start Date     : 01 Jul 2025                        │
+│ End Date       : 01 Jan 2027                        │
+└─────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────┐
+│ ROW 6                                               │
+├─────────────────────────────────────────────────────┤
+│ Advert         : metaOrigin4                        │
+│ Brand          : SuperBrand4                        │
+│ Measured Entity: Fastflix                           │
+│ Media Type     : Other                              │
+│ TV On Air Dates: -                                  │
+│ Start Date     : 15 Aug 2025                        │
+│ End Date       : 07 Nov 2026                        │
+└─────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────┐
+│ ROW 7                                               │
+├─────────────────────────────────────────────────────┤
+│ Advert         : StreamZoneAquila4                  │
+│ Brand          : StreamZone9                        │
+│ Measured Entity: StreamZone                         │
+│ Media Type     : Other                              │
+│ TV On Air Dates: -                                  │
+│ Start Date     : 29 Aug 2025                        │
+│ End Date       : 07 Nov 2026                        │
+└─────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────┐
+│ ROW 8                                               │
+├─────────────────────────────────────────────────────┤
+│ Advert         : metaOrigin6                        │
+│ Brand          : SuperBrand6                        │
+│ Measured Entity: Fastflix                           │
+│ Media Type     : Other                              │
+│ TV On Air Dates: -                                  │
+│ Start Date     : 01 Sep 2025                        │
+│ End Date       : 01 Jan 2027                        │
+└─────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────┐
+│ ROW 9                                               │
+├─────────────────────────────────────────────────────┤
+│ Advert         : metaOrigin3                        │
+│ Brand          : SuperBrand3                        │
+│ Measured Entity: Fastflix                           │
+│ Media Type     : Other                              │
+│ TV On Air Dates: -                                  │
+│ Start Date     : 04 Sep 2025                        │
+│ End Date       : 30 Sep 2035                        │
+└─────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────┐
+│ ROW 10                                              │
+├─────────────────────────────────────────────────────┤
+│ Advert         : metaAquila2                        │
+│ Brand          : SuperBrand8                        │
+│ Measured Entity: Fastflix                           │
+│ Media Type     : Other                              │
+│ TV On Air Dates: -                                  │
+│ Start Date     : 30 Sep 2025                        │
+│ End Date       : 01 Jan 2026                        │
+└─────────────────────────────────────────────────────┘
+✓ Row 1: TV On Air Dates validated - "-"
+✓ Row 1: Start Date format validated - "12 May 2025"
+✓ Row 1: End Date format validated - "29 Dec 2025"
+✓ Row 1: All required fields validated
+✓ Row 2: TV On Air Dates validated - "-"
+✓ Row 2: Start Date format validated - "25 May 2025"
+✓ Row 2: End Date format validated - "29 Dec 2025"
+✓ Row 2: All required fields validated
+✓ Row 3: TV On Air Dates validated - "-"
+✓ Row 3: Start Date format validated - "25 May 2025"
+✓ Row 3: End Date format validated - "29 Dec 2025"
+✓ Row 3: All required fields validated
+✓ Row 4: TV On Air Dates validated - "-"
+✓ Row 4: Start Date format validated - "25 May 2025"
+✓ Row 4: End Date format validated - "27 Dec 2025"
+✓ Row 4: All required fields validated
+✓ Row 5: TV On Air Dates validated - "-"
+✓ Row 5: Start Date format validated - "01 Jul 2025"
+✓ Row 5: End Date format validated - "01 Jan 2027"
+✓ Row 5: All required fields validated
+✓ Row 6: TV On Air Dates validated - "-"
+✓ Row 6: Start Date format validated - "15 Aug 2025"
+✓ Row 6: End Date format validated - "07 Nov 2026"
+✓ Row 6: All required fields validated
+✓ Row 7: TV On Air Dates validated - "-"
+✓ Row 7: Start Date format validated - "29 Aug 2025"
+✓ Row 7: End Date format validated - "07 Nov 2026"
+✓ Row 7: All required fields validated
+✓ Row 8: TV On Air Dates validated - "-"
+✓ Row 8: Start Date format validated - "01 Sep 2025"
+✓ Row 8: End Date format validated - "01 Jan 2027"
+✓ Row 8: All required fields validated
+✓ Row 9: TV On Air Dates validated - "-"
+✓ Row 9: Start Date format validated - "04 Sep 2025"
+✓ Row 9: End Date format validated - "30 Sep 2035"
+✓ Row 9: All required fields validated
+✓ Row 10: TV On Air Dates validated - "-"
+✓ Row 10: Start Date format validated - "30 Sep 2025"
+✓ Row 10: End Date format validated - "01 Jan 2026"
+✓ Row 10: All required fields validated
+════════════════════════════════════════════════════════════════════════════════
+
+✅ Table validation completed - 10 rows fetched and validated
+✓ First row from data list selected
+🔍 Validating Selected Adverts Text...
+✓ "Selected Adverts" title is visible: "Selected Adverts"
+✓ Description text is visible: "The adverts you have selected are shown below."
+✓ "Download selection" button is visible
+✅ Selected Adverts Text validated successfully
+🔍 Validating Selected Adverts Table...
+✓ Table headers found: Advert, Brand, Measured Entity, Media Type, TV On Air Dates, Start Date, End Date, Advert, Brand, Measured Entity, Media Type, TV On Air Dates, Start date, End date
+✓ Header "Advert" is present
+✓ Header "Brand" is present
+✓ Header "Measured Entity" is present
+✓ Header "Media Type" is present
+✓ Header "TV On Air Dates" is present
+✓ Header "Start date" is present
+✓ Header "End date" is present
+
+📊 Found 11 row(s) in Selected Adverts table
+📊 Fetching rows starting from row 11 (after first 10 rows)...
+════════════════════════════════════════════════════════════
+┌─────────────────────────────────────────────────────┐
+│ SELECTED ADVERT ROW                                 │
+├─────────────────────────────────────────────────────┤
+│ Advert         : metaAquila6                        │
+│ Brand          : SuperBrand12                       │
+│ Measured Entity: Fastflix                           │
+│ Media Type     : Other                              │
+│ TV On Air Dates: -                                  │
+│ Start date     : -                                  │
+│ End date       : -                                  │
+└─────────────────────────────────────────────────────┘
+
+🔍 Validating row data is not empty...
+✓ Advert: "metaAquila6" - validated
+✓ Brand: "SuperBrand12" - validated
+
+[[ATTACHMENT|..\..\test-results\test-run_2026-03-25_10-10-47\RegressionTestUIOriginTST--09e29-dia-Type-Column-has-values--chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\..\test-results\test-run_2026-03-25_10-10-47\RegressionTestUIOriginTST--09e29-dia-Type-Column-has-values--chromium\video.webm]]
+
+[[ATTACHMENT|..\..\test-results\test-run_2026-03-25_10-10-47\RegressionTestUIOriginTST--09e29-dia-Type-Column-has-values--chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-491 UAT Verify to Media Type Column has values " classname="RegressionTestUIOriginTST.spec.ts" time="2.507">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Regression Pack › PDH-T650 Create campaign group with at least one event group with metadata" classname="RegressionTestUIOriginTST.spec.ts" time="15.609">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: SingleEDP_Other_2026-03-25T10-11-31
+✓ Campaign group created with name: SingleEDP_OtherCampaign_2026-03-25T10-11-31
+✓ Other checkbox clicked
+✓ Clicked on screen to defocus
+✓ Other media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+✓ Save campaign group button clicked successfully
+✓ Campaign submitted successfully
+📅 Adding 2 days to date: 26 December 2025
+✓ Result: 26 December 2025 + 2 days = 28 Dec 2025
+📅 Cal Start date: 26 December 2025
+📅 Cal End date: 29 December 2025
+📅 Start date: 28 Dec 2025
+🗓️ Navigating to calendar date: 28 Dec 2025
+📅 Selecting date from calendar: 28 Dec 2025
+🎯 Target date parsed: 28/12/2025
+Wait for calendar to appear
+ Find month and year display element
+navigate To Target Year
+📅 Navigating to year: 2025
+Current calendar year: 2025, Target: 2025
+✓ Reached target year: 2025
+✓ year element found
+navigate To Target Month
+📅 Navigating to month: December 2025
+Current: DECEMBER 2025, Target: December 2025
+✓ Reached target month: December 2025
+✓ Month element found
+🎯 Selecting day: 28 in December 2025
+Select the date from the calendar: 28
+🎯 Looking for day: 28
+Found 31 day elements to check
+✓ Found matching day: 28
+✓ Click successful on attempt 1
+✅ Successfully clicked on day 28
+✅ Successfully selected date: 28 Dec 2025
+🔍 Verifying date selection: 28 Dec 2025
+✅ Date successfully selected: [object Promise]
+✓ Demographics selected
+✓ Found selected date: 28 December 2025
+✓ Measured Impression selected
+🎯 Starting report metrics selection...
+📊 Total Reach Percentage Start value: 1
+📊 Total Reach Percentage End value: 15
+✓ Unique Reach selected via JavaScript click
+✓ Average Frequency selected via JavaScript click
+✓ Impressions selected via JavaScript click
+✅ Report metrics selection completed successfully
+✓ Report Submitted successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T653 The Campaign group name can contain alphanumeric values" classname="RegressionTestUIOriginTST.spec.ts" time="13.582">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: Batch Report 123_2026-03-25T10-11-45
+✓ Campaign group created with name: Batch Report 123_2026-03-25T10-11-45
+✓ Other checkbox clicked
+✓ Clicked on screen to defocus
+✓ Other media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+✓ Save campaign group button clicked successfully
+✓ Campaign submitted successfully
+📅 Adding 2 days to date: 26 December 2025
+✓ Result: 26 December 2025 + 2 days = 28 Dec 2025
+📅 Cal Start date: 26 December 2025
+📅 Cal End date: 29 December 2025
+📅 Start date: 28 Dec 2025
+🗓️ Navigating to calendar date: 28 Dec 2025
+📅 Selecting date from calendar: 28 Dec 2025
+🎯 Target date parsed: 28/12/2025
+Wait for calendar to appear
+ Find month and year display element
+navigate To Target Year
+📅 Navigating to year: 2025
+Current calendar year: 2025, Target: 2025
+✓ Reached target year: 2025
+✓ year element found
+navigate To Target Month
+📅 Navigating to month: December 2025
+Current: DECEMBER 2025, Target: December 2025
+✓ Reached target month: December 2025
+✓ Month element found
+🎯 Selecting day: 28 in December 2025
+Select the date from the calendar: 28
+🎯 Looking for day: 28
+Found 31 day elements to check
+✓ Found matching day: 28
+✓ Click successful on attempt 1
+✅ Successfully clicked on day 28
+✅ Successfully selected date: 28 Dec 2025
+🔍 Verifying date selection: 28 Dec 2025
+✅ Date successfully selected: [object Promise]
+✓ Demographics selected
+✓ Found selected date: 28 December 2025
+✓ Measured Impression selected
+🎯 Starting report metrics selection...
+📊 Total Reach Percentage Start value: 1
+📊 Total Reach Percentage End value: 15
+✓ Unique Reach selected via JavaScript click
+✓ Average Frequency selected via JavaScript click
+✓ Impressions selected via JavaScript click
+✅ Report metrics selection completed successfully
+✓ Report Submitted successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T673 The Batch Report name can contain alphanumeric values" classname="RegressionTestUIOriginTST.spec.ts" time="15.679">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: Batch Report 123_2026-03-25T10-12-01
+✓ Campaign group created with name: Batch Report 123_2026-03-25T10-12-01
+✓ Other checkbox clicked
+✓ Clicked on screen to defocus
+✓ Other media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+✓ Save campaign group button clicked successfully
+✓ Campaign submitted successfully
+📅 Adding 2 days to date: 26 December 2025
+✓ Result: 26 December 2025 + 2 days = 28 Dec 2025
+📅 Cal Start date: 26 December 2025
+📅 Cal End date: 29 December 2025
+📅 Start date: 28 Dec 2025
+🗓️ Navigating to calendar date: 28 Dec 2025
+📅 Selecting date from calendar: 28 Dec 2025
+🎯 Target date parsed: 28/12/2025
+Wait for calendar to appear
+ Find month and year display element
+navigate To Target Year
+📅 Navigating to year: 2025
+Current calendar year: 2025, Target: 2025
+✓ Reached target year: 2025
+✓ year element found
+navigate To Target Month
+📅 Navigating to month: December 2025
+Current: DECEMBER 2025, Target: December 2025
+✓ Reached target month: December 2025
+✓ Month element found
+🎯 Selecting day: 28 in December 2025
+Select the date from the calendar: 28
+🎯 Looking for day: 28
+Found 31 day elements to check
+✓ Found matching day: 28
+✓ Click successful on attempt 1
+✅ Successfully clicked on day 28
+✅ Successfully selected date: 28 Dec 2025
+🔍 Verifying date selection: 28 Dec 2025
+✅ Date successfully selected: [object Promise]
+✓ Demographics selected
+✓ Found selected date: 28 December 2025
+✓ Measured Impression selected
+🎯 Starting report metrics selection...
+📊 Total Reach Percentage Start value: 1
+📊 Total Reach Percentage End value: 15
+✓ Unique Reach selected via JavaScript click
+✓ Average Frequency selected via JavaScript click
+✓ Impressions selected via JavaScript click
+✅ Report metrics selection completed successfully
+✓ Report Submitted successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T652 Create the campaign group  name with unique name" classname="RegressionTestUIOriginTST.spec.ts" time="20.298">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: Report 123_2026-03-25T10-12-14
+✓ Campaign group created with name: Report 123_2026-03-25T10-12-14
+✓ Other checkbox clicked
+✓ Clicked on screen to defocus
+✓ Other media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+✓ Save campaign group button clicked successfully
+✓ Campaign submitted successfully
+✓ Logout button clicked
+🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Report name filled and entered: Report 123_2026-03-25T10-12-26
+✓ Campaign group created with name: Report 123_2026-03-25T10-12-14
+✓ Other checkbox clicked
+✓ Clicked on screen to defocus
+✓ Other media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+✓ Save campaign group button clicked successfully
+✓ Campaign submitted successfully
+✓ Verified: Campaign name required error displayed - "The campaign name should be unique. Please update the name you have provided."
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T670 Create the batch report where the start date must be before or the same as end date" classname="RegressionTestUIOriginTST.spec.ts" time="15.257">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: SingleEDP_Other_2026-03-25T10-12-37
+✓ Campaign group created with name: SingleEDP_OtherCampaign_2026-03-25T10-12-37
+✓ Other checkbox clicked
+✓ Clicked on screen to defocus
+✓ Other media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+✓ Save campaign group button clicked successfully
+✓ Campaign submitted successfully
+📅 Adding 2 days to date: 26 December 2025
+✓ Result: 26 December 2025 + 2 days = 28 Dec 2025
+📅 Cal Start date: 26 December 2025
+📅 Cal End date: 29 December 2025
+📅 Start date: 28 Dec 2025
+🗓️ Navigating to calendar date: 28 Dec 2025
+📅 Selecting date from calendar: 28 Dec 2025
+🎯 Target date parsed: 28/12/2025
+Wait for calendar to appear
+ Find month and year display element
+navigate To Target Year
+📅 Navigating to year: 2025
+Current calendar year: 2025, Target: 2025
+✓ Reached target year: 2025
+✓ year element found
+navigate To Target Month
+📅 Navigating to month: December 2025
+Current: DECEMBER 2025, Target: December 2025
+✓ Reached target month: December 2025
+✓ Month element found
+🎯 Selecting day: 28 in December 2025
+Select the date from the calendar: 28
+🎯 Looking for day: 28
+Found 31 day elements to check
+✓ Found matching day: 28
+✓ Click successful on attempt 1
+✅ Successfully clicked on day 28
+✅ Successfully selected date: 28 Dec 2025
+🔍 Verifying date selection: 28 Dec 2025
+✅ Date successfully selected: [object Promise]
+✓ Demographics selected
+✓ Found selected date: 28 December 2025
+✓ Measured Impression selected
+🎯 Starting report metrics selection...
+📊 Total Reach Percentage Start value: 1
+📊 Total Reach Percentage End value: 15
+✓ Unique Reach selected via JavaScript click
+✓ Average Frequency selected via JavaScript click
+✓ Impressions selected via JavaScript click
+✅ Report metrics selection completed successfully
+✓ Report Submitted successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T658 Campaign Group Name cannot be empty or null" classname="RegressionTestUIOriginTST.spec.ts" time="9.456">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: SingleEDP_Other_2026-03-25T10-12-52
+✓ Campaign group created with name: 
+✓ Other checkbox clicked
+✓ Clicked on screen to defocus
+✓ Other media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+✓ Verified: Campaign name required error displayed - "A campaign name is required."
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T656 The Campaign group name contains &lt;1 or &gt;255 chars" classname="RegressionTestUIOriginTST.spec.ts" time="7.417">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: SingleEDP_Other_2026-03-25T10-13-00
+✓ Campaign group created with name: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+✓ Other checkbox clicked
+✓ Clicked on screen to defocus
+✓ Other media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+✓ Verified: Campaign name required error displayed - "Campaign name is too long. Please provide a shorter name."
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T675 The Campaign group name contain &lt;1 or &gt;246 chars" classname="RegressionTestUIOriginTST.spec.ts" time="31.308">
+<failure message="RegressionTestUIOriginTST.spec.ts:262:9 PDH-T675 The Campaign group name contain &lt;1 or &gt;246 chars" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:262:9 › Regression Pack › PDH-T675 The Campaign group name contain <1 or >246 chars 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.textContent: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for locator('//*[@id=\'report-filters-start-date\']')
+
+
+       at pages\ReportConfigurationPage.ts:113
+
+      111 |
+      112 |   async selectFilters(filterParameter: string): Promise<void> {
+    > 113 |     const startDateValue = await this.startDate.textContent();
+          |                                                 ^
+      114 |
+      115 |     let outputDays: string;
+      116 |
+        at ReportConfigurationPage.selectFilters (C:\PROJECT\Automation\ISBA\e2e-automation-playwright\tests\pages\ReportConfigurationPage.ts:113:49)
+        at SmokeTestSuite.selectFilters (C:\PROJECT\Automation\ISBA\e2e-automation-playwright\tests\functions\smokeTestSuite.ts:188:33)
+        at C:\PROJECT\Automation\ISBA\e2e-automation-playwright\tests\RegressionTestUIOriginTST.spec.ts:271:30
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\test-run_2026-03-25_10-11-21\RegressionTestUIOriginTST--8e9c9-name-contain-1-or-246-chars-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\test-run_2026-03-25_10-11-21\RegressionTestUIOriginTST--8e9c9-name-contain-1-or-246-chars-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\test-run_2026-03-25_10-11-21\RegressionTestUIOriginTST--8e9c9-name-contain-1-or-246-chars-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: MaximumAllowedChar574_2026-03-25T10-13-09
+✓ Campaign group created with name: aaaaaaaaaaaaaaaaanbnbbnaaaaabaaaaaaaaaaaaaffaaaaaaaaaaaaaaaaaaaaa
+✓ Other checkbox clicked
+✓ Clicked on screen to defocus
+✓ Other media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+✓ Save campaign group button clicked successfully
+✓ Campaign submitted successfully
+
+[[ATTACHMENT|..\..\test-results\test-run_2026-03-25_10-11-21\RegressionTestUIOriginTST--8e9c9-name-contain-1-or-246-chars-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\..\test-results\test-run_2026-03-25_10-11-21\RegressionTestUIOriginTST--8e9c9-name-contain-1-or-246-chars-chromium\video.webm]]
+
+[[ATTACHMENT|..\..\test-results\test-run_2026-03-25_10-11-21\RegressionTestUIOriginTST--8e9c9-name-contain-1-or-246-chars-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T654 The Report  name cannot be empty" classname="RegressionTestUIOriginTST.spec.ts" time="7.591">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Verified: Campaign name required error displayed - "A report name is required."
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T655 The Batch Report name contain between 1 and 255 chars" classname="RegressionTestUIOriginTST.spec.ts" time="4.338">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Verified: Campaign name required error displayed - "Report name is too long. Please provide a shorter name."
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T659 Create Batch Report" classname="RegressionTestUIOriginTST.spec.ts" time="17.282">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: SingleEDP_Video_2026-03-25T10-13-55
+✓ Campaign group created with name: SingleEDP_VideoCampaign_2026-03-25T10-13-55
+✓ Video checkbox clicked
+✓ Clicked on screen to defocus
+✓ Video media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+✓ Save campaign group button clicked successfully
+✓ Campaign submitted successfully
+📅 Adding 0 days to date: 10 April 2025
+✓ Result: 10 April 2025 + 0 days = 10 Apr 2025
+📅 Cal Start date: 10 April 2025
+📅 Cal End date: 10 April 2025
+📅 Start date: 10 Apr 2025
+🗓️ Navigating to calendar date: 10 Apr 2025
+📅 Selecting date from calendar: 10 Apr 2025
+🎯 Target date parsed: 10/4/2025
+Wait for calendar to appear
+ Find month and year display element
+navigate To Target Year
+📅 Navigating to year: 2025
+Current calendar year: 2025, Target: 2025
+✓ Reached target year: 2025
+✓ year element found
+navigate To Target Month
+📅 Navigating to month: April 2025
+Current: APRIL 2025, Target: April 2025
+✓ Reached target month: April 2025
+✓ Month element found
+🎯 Selecting day: 10 in April 2025
+Select the date from the calendar: 10
+🎯 Looking for day: 10
+Found 30 day elements to check
+✓ Found matching day: 10
+✓ Click successful on attempt 1
+✅ Successfully clicked on day 10
+✅ Successfully selected date: 10 Apr 2025
+🔍 Verifying date selection: 10 Apr 2025
+✅ Date successfully selected: [object Promise]
+✓ Demographics selected
+✓ Found selected date: 10 April 2025
+✓ Viewability 100% selected
+✓ Measured Impression selected
+🎯 Starting report metrics selection...
+📊 Total Reach Percentage Start value: 1
+📊 Total Reach Percentage End value: 15
+✓ Unique Reach selected via JavaScript click
+✓ Average Frequency selected via JavaScript click
+✓ Impressions selected via JavaScript click
+✅ Report metrics selection completed successfully
+✓ Report Submitted successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T66 TV event group displayed successfully" classname="RegressionTestUIOriginTST.spec.ts" time="18.198">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: SingleEDP_Video_Linear TV_2026-03-25T10-14-14
+✓ Campaign group created with name: SingleEDP_VideoCampaignLinear TV_2026-03-25T10-14-14
+✓Linear TV checkbox clicked
+✓ Clicked on screen to defocus
+✓ Linear TV measured entity selected
+✓ Search the Campaign group
+✓ First row from data list selected
+✓ Save campaign group button clicked successfully
+✓ Campaign submitted successfully
+📅 Adding 0 days to date: 10 April 2025
+✓ Result: 10 April 2025 + 0 days = 10 Apr 2025
+📅 Cal Start date: 10 April 2025
+📅 Cal End date: 10 April 2025
+📅 Start date: 10 Apr 2025
+🗓️ Navigating to calendar date: 10 Apr 2025
+📅 Selecting date from calendar: 10 Apr 2025
+🎯 Target date parsed: 10/4/2025
+Wait for calendar to appear
+ Find month and year display element
+navigate To Target Year
+📅 Navigating to year: 2025
+Current calendar year: 2025, Target: 2025
+✓ Reached target year: 2025
+✓ year element found
+navigate To Target Month
+📅 Navigating to month: April 2025
+Current: APRIL 2025, Target: April 2025
+✓ Reached target month: April 2025
+✓ Month element found
+🎯 Selecting day: 10 in April 2025
+Select the date from the calendar: 10
+🎯 Looking for day: 10
+Found 30 day elements to check
+✓ Found matching day: 10
+✓ Click successful on attempt 1
+✅ Successfully clicked on day 10
+✅ Successfully selected date: 10 Apr 2025
+🔍 Verifying date selection: 10 Apr 2025
+✅ Date successfully selected: [object Promise]
+✓ Demographics selected
+✓ Found selected date: 10 April 2025
+✓ Viewability 100% selected
+✓ Measured Impression selected
+🎯 Starting report metrics selection...
+📊 Total Reach Percentage Start value: 1
+📊 Total Reach Percentage End value: 15
+✓ Unique Reach selected via JavaScript click
+✓ Average Frequency selected via JavaScript click
+✓ Impressions selected via JavaScript click
+✅ Report metrics selection completed successfully
+✓ Report Submitted successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T1572 Single EDP Single Mediatype - Video" classname="RegressionTestUIOriginTST.spec.ts" time="16.335">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: SingleEDP_Video_2026-03-25T10-14-29
+✓ Campaign group created with name: SingleEDP_VideoCampaign_2026-03-25T10-14-30
+✓ Video checkbox clicked
+✓ Clicked on screen to defocus
+✓ Video media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+✓ Save campaign group button clicked successfully
+✓ Campaign submitted successfully
+📅 Adding 0 days to date: 10 April 2025
+✓ Result: 10 April 2025 + 0 days = 10 Apr 2025
+📅 Cal Start date: 10 April 2025
+📅 Cal End date: 10 April 2025
+📅 Start date: 10 Apr 2025
+🗓️ Navigating to calendar date: 10 Apr 2025
+📅 Selecting date from calendar: 10 Apr 2025
+🎯 Target date parsed: 10/4/2025
+Wait for calendar to appear
+ Find month and year display element
+navigate To Target Year
+📅 Navigating to year: 2025
+Current calendar year: 2025, Target: 2025
+✓ Reached target year: 2025
+✓ year element found
+navigate To Target Month
+📅 Navigating to month: April 2025
+Current: APRIL 2025, Target: April 2025
+✓ Reached target month: April 2025
+✓ Month element found
+🎯 Selecting day: 10 in April 2025
+Select the date from the calendar: 10
+🎯 Looking for day: 10
+Found 30 day elements to check
+✓ Found matching day: 10
+✓ Click successful on attempt 1
+✅ Successfully clicked on day 10
+✅ Successfully selected date: 10 Apr 2025
+🔍 Verifying date selection: 10 Apr 2025
+✅ Date successfully selected: [object Promise]
+✓ Demographics selected
+✓ Found selected date: 10 April 2025
+✓ Viewability 100% selected
+✓ Measured Impression selected
+🎯 Starting report metrics selection...
+📊 Total Reach Percentage Start value: 1
+📊 Total Reach Percentage End value: 15
+✓ Unique Reach selected via JavaScript click
+✓ Average Frequency selected via JavaScript click
+✓ Impressions selected via JavaScript click
+✅ Report metrics selection completed successfully
+✓ Report Submitted successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T1574 Single EDP Single Mediatype - Other" classname="RegressionTestUIOriginTST.spec.ts" time="14.174">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: SingleEDP_Other_2026-03-25T10-14-47
+✓ Campaign group created with name: SingleEDP_OtherCampaign_2026-03-25T10-14-47
+✓ Other checkbox clicked
+✓ Clicked on screen to defocus
+✓ Other media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+✓ Save campaign group button clicked successfully
+✓ Campaign submitted successfully
+📅 Adding 2 days to date: 26 December 2025
+✓ Result: 26 December 2025 + 2 days = 28 Dec 2025
+📅 Cal Start date: 26 December 2025
+📅 Cal End date: 29 December 2025
+📅 Start date: 28 Dec 2025
+🗓️ Navigating to calendar date: 28 Dec 2025
+📅 Selecting date from calendar: 28 Dec 2025
+🎯 Target date parsed: 28/12/2025
+Wait for calendar to appear
+ Find month and year display element
+navigate To Target Year
+📅 Navigating to year: 2025
+Current calendar year: 2025, Target: 2025
+✓ Reached target year: 2025
+✓ year element found
+navigate To Target Month
+📅 Navigating to month: December 2025
+Current: DECEMBER 2025, Target: December 2025
+✓ Reached target month: December 2025
+✓ Month element found
+🎯 Selecting day: 28 in December 2025
+Select the date from the calendar: 28
+🎯 Looking for day: 28
+Found 31 day elements to check
+✓ Found matching day: 28
+✓ Click successful on attempt 1
+✅ Successfully clicked on day 28
+✅ Successfully selected date: 28 Dec 2025
+🔍 Verifying date selection: 28 Dec 2025
+✅ Date successfully selected: [object Promise]
+✓ Demographics selected
+✓ Found selected date: 28 December 2025
+✓ Measured Impression selected
+🎯 Starting report metrics selection...
+📊 Total Reach Percentage Start value: 1
+📊 Total Reach Percentage End value: 15
+✓ Unique Reach selected via JavaScript click
+✓ Average Frequency selected via JavaScript click
+✓ Impressions selected via JavaScript click
+✅ Report metrics selection completed successfully
+✓ Report Submitted successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T1576 Cross Media - Display, Video and Other" classname="RegressionTestUIOriginTST.spec.ts" time="17.43">
+<system-out>
+<![CDATA[Parsed filter list: [ [32m'Display'[39m, [32m'Video'[39m, [32m'Other'[39m ]
+🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: CrossMedia_Display_Other_2026-03-25T10-15-01
+✓ Campaign group created with name: CrossMedia_Campaign_2026-03-25T10-15-01
+Processing filter: Display
+✓ Display checkbox clicked
+✓ Clicked on screen to defocus
+✓ Display media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+Processing filter: Video
+✓ Video checkbox clicked
+✓ Clicked on screen to defocus
+✓ Video media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+Processing filter: Other
+✓ Other checkbox clicked
+✓ Clicked on screen to defocus
+✓ Other media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+✓ Save campaign group button clicked successfully
+✓ Campaign submitted successfully
+📅 Adding 2 days to date: 26 December 2025
+✓ Result: 26 December 2025 + 2 days = 28 Dec 2025
+📅 Cal Start date: 26 December 2025
+📅 Cal End date: 29 December 2025
+📅 Start date: 28 Dec 2025
+🗓️ Navigating to calendar date: 28 Dec 2025
+📅 Selecting date from calendar: 28 Dec 2025
+🎯 Target date parsed: 28/12/2025
+Wait for calendar to appear
+ Find month and year display element
+navigate To Target Year
+📅 Navigating to year: 2025
+Current calendar year: 2025, Target: 2025
+✓ Reached target year: 2025
+✓ year element found
+navigate To Target Month
+📅 Navigating to month: December 2025
+Current: DECEMBER 2025, Target: December 2025
+✓ Reached target month: December 2025
+✓ Month element found
+🎯 Selecting day: 28 in December 2025
+Select the date from the calendar: 28
+🎯 Looking for day: 28
+Found 31 day elements to check
+✓ Found matching day: 28
+✓ Click successful on attempt 1
+✅ Successfully clicked on day 28
+✅ Successfully selected date: 28 Dec 2025
+🔍 Verifying date selection: 28 Dec 2025
+✅ Date successfully selected: [object Promise]
+✓ Demographics selected
+✓ Found selected date: 28 December 2025
+✓ Measured Impression selected
+🎯 Starting report metrics selection...
+📊 Total Reach Percentage Start value: 1
+📊 Total Reach Percentage End value: 15
+✓ Unique Reach selected via JavaScript click
+✓ Average Frequency selected via JavaScript click
+✓ Impressions selected via JavaScript click
+✅ Report metrics selection completed successfully
+✓ Report Submitted successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T1576 Cross Media - Video and Other" classname="RegressionTestUIOriginTST.spec.ts" time="1.112">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Regression Pack › PDH-761 Verify Updated Cumulative Reach tabs for cross-media type report" classname="RegressionTestUIOriginTST.spec.ts" time="13.166">
+<failure message="RegressionTestUIOriginTST.spec.ts:473:9 PDH-761 Verify Updated Cumulative Reach tabs for cross-media type report" type="FAILURE">
+<![CDATA[  [chromium] › RegressionTestUIOriginTST.spec.ts:473:9 › Regression Pack › PDH-761 Verify Updated Cumulative Reach tabs for cross-media type report 
+
+    Error: Could not find or click month navigation button
+
+       at utils\FilterCalendar.ts:534
+
+      532 |       await page.waitForTimeout(500);
+      533 |     } else {
+    > 534 |       throw new Error('Could not find or click month navigation button');
+          |             ^
+      535 |     }
+      536 |     
+      537 |     attempts++;
+        at navigateToTargetMonth (C:\PROJECT\Automation\ISBA\e2e-automation-playwright\tests\utils\FilterCalendar.ts:534:13)
+        at Function.selectDateOfCalendar (C:\PROJECT\Automation\ISBA\e2e-automation-playwright\tests\utils\FilterCalendar.ts:40:5)
+        at ReportConfigurationPage.selectFiltersForCumulative (C:\PROJECT\Automation\ISBA\e2e-automation-playwright\tests\pages\ReportConfigurationPage.ts:169:5)
+        at SmokeTestSuite.selectFiltersForCumulative (C:\PROJECT\Automation\ISBA\e2e-automation-playwright\tests\functions\smokeTestSuite.ts:191:5)
+        at C:\PROJECT\Automation\ISBA\e2e-automation-playwright\tests\RegressionTestUIOriginTST.spec.ts:494:9
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\test-run_2026-03-25_10-13-37\RegressionTestUIOriginTST--445e6-for-cross-media-type-report-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\test-run_2026-03-25_10-13-37\RegressionTestUIOriginTST--445e6-for-cross-media-type-report-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\test-run_2026-03-25_10-13-37\RegressionTestUIOriginTST--445e6-for-cross-media-type-report-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[Parsed filter list: [ [32m'Video'[39m, [32m'Other'[39m ]
+🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: CrossMedia_Video_Other_Cummulative_2026-03-25T10-15-20
+✓ Campaign group created with name: CrossMedia_Campaign_2026-03-25T10-15-20
+Processing filter: Video
+✓ Video checkbox clicked
+✓ Clicked on screen to defocus
+✓ Video media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+Processing filter: Other
+✓ Other checkbox clicked
+✓ Clicked on screen to defocus
+✓ Other media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+✓ Save campaign group button clicked successfully
+✓ Campaign submitted successfully
+📅 Adding 8 days to date: 26 December 2025
+✓ Result: 26 December 2025 + 8 days = 03 Jan 2026
+📅 Cal Start date: 26 December 2025
+📅 Cal End date: 29 December 2025
+📅 Start date: 03 Jan 2026
+🗓️ Navigating to calendar date: 03 Jan 2026
+📅 Selecting date from calendar: 03 Jan 2026
+🎯 Target date parsed: 3/1/2026
+Wait for calendar to appear
+ Find month and year display element
+navigate To Target Year
+📅 Navigating to year: 2026
+Current calendar year: 2025, Target: 2026
+⚠️ Year navigation button not found or disabled
+✓ year element found
+navigate To Target Month
+📅 Navigating to month: January 2026
+Current: DECEMBER 2025, Target: January 2026
+
+[[ATTACHMENT|..\..\test-results\test-run_2026-03-25_10-13-37\RegressionTestUIOriginTST--445e6-for-cross-media-type-report-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\..\test-results\test-run_2026-03-25_10-13-37\RegressionTestUIOriginTST--445e6-for-cross-media-type-report-chromium\video.webm]]
+
+[[ATTACHMENT|..\..\test-results\test-run_2026-03-25_10-13-37\RegressionTestUIOriginTST--445e6-for-cross-media-type-report-chromium\error-context.md]]
+]]>
+</system-out>
+<system-err>
+<![CDATA[❌ Error selecting calendar date: Error: Could not find or click month navigation button
+]]>
+</system-err>
+</testcase>
+<testcase name="Regression Pack › PDH-T79 Verify of all publisher on channel aligned with data provider based on their campaign selections" classname="RegressionTestUIOriginTST.spec.ts" time="16.92">
+<system-out>
+<![CDATA[Parsed filter list: [ [32m'Video'[39m, [32m'Other'[39m ]
+🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: CrossMedia_Video_Other_2026-03-25T10-15-37
+✓ Campaign group created with name: CrossMedia_Campaign_2026-03-25T10-15-37
+Processing filter: Video
+✓ Video checkbox clicked
+✓ Clicked on screen to defocus
+✓ Video media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+Processing filter: Other
+✓ Other checkbox clicked
+✓ Clicked on screen to defocus
+✓ Other media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+✓ Save campaign group button clicked successfully
+✓ Campaign submitted successfully
+📅 Adding 2 days to date: 26 December 2025
+✓ Result: 26 December 2025 + 2 days = 28 Dec 2025
+📅 Cal Start date: 26 December 2025
+📅 Cal End date: 29 December 2025
+📅 Start date: 28 Dec 2025
+🗓️ Navigating to calendar date: 28 Dec 2025
+📅 Selecting date from calendar: 28 Dec 2025
+🎯 Target date parsed: 28/12/2025
+Wait for calendar to appear
+ Find month and year display element
+navigate To Target Year
+📅 Navigating to year: 2025
+Current calendar year: 2025, Target: 2025
+✓ Reached target year: 2025
+✓ year element found
+navigate To Target Month
+📅 Navigating to month: December 2025
+Current: DECEMBER 2025, Target: December 2025
+✓ Reached target month: December 2025
+✓ Month element found
+🎯 Selecting day: 28 in December 2025
+Select the date from the calendar: 28
+🎯 Looking for day: 28
+Found 31 day elements to check
+✓ Found matching day: 28
+✓ Click successful on attempt 1
+✅ Successfully clicked on day 28
+✅ Successfully selected date: 28 Dec 2025
+🔍 Verifying date selection: 28 Dec 2025
+✅ Date successfully selected: [object Promise]
+✓ Demographics selected
+✓ Found selected date: 28 December 2025
+✓ Measured Impression selected
+🎯 Starting report metrics selection...
+📊 Total Reach Percentage Start value: 1
+📊 Total Reach Percentage End value: 15
+✓ Unique Reach selected via JavaScript click
+✓ Average Frequency selected via JavaScript click
+✓ Impressions selected via JavaScript click
+🎯 Verifying Measure Incremental Reach section...
+✓ Heading "Measure incremental reach" is visible
+✓ Description text is visible
+✓ Label "Measure Incremental Reach by" is visible
+✅ Measure Incremental Reach section verified successfully
+🎯 Selecting Measured Entity for Incremental Reach...
+✓ Incremental Reach dropdown opened
+✓ Measured Entity selected
+✓ "Anchor" label is visible
+✓ "Measured Entity 2" label is visible
+✓ Anchor dropdown opened
+✓ Anchor option selected
+✅ Incremental Reach selection completed
+✅ Report metrics selection completed successfully
+✓ Report Submitted successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-981 Verify a combined search functionality and getting a successful results" classname="RegressionTestUIOriginTST.spec.ts" time="7.316">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: SingleEDP_Video_Linear TV_2026-03-25T10-15-53
+✓ Campaign group created with name: SingleEDP_VideoCampaignLinear TV_2026-03-25T10-15-53
+✓ Video checkbox clicked
+✓ Clicked on screen to defocus
+✓ Video media type selected
+✓ Search the Campaign group
+✓Linear TV checkbox clicked
+✓ Clicked on screen to defocus
+✓ Linear TV measured entity selected
+✓ Search the Campaign group
+✓ First row from data list selected
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T1313	Clicking on Log out button during report building process" classname="RegressionTestUIOriginTST.spec.ts" time="4.916">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Logout button clicked
+✓ Successfully logged out and redirected to login page
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T382 Verify of Validate user consent in the context of a cookie banner" classname="RegressionTestUIOriginTST.spec.ts" time="3.541">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T1060 Verify dashboard page paginationOrigin " classname="RegressionTestUIOriginTST.spec.ts" time="3.929">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+🔍 Verifying Origin Dashboard elements...
+✓ Welcome to Origin is visible
+✓ Reports is visible
+✓ Create Report Button is visible
+✓ Logout Button is visible
+✓ Home Link is visible
+✓ Reports Section is visible
+✓ Reports Table is visible
+✓ Report Name Header is visible
+✓ Campaign Header is visible
+✓ Created Date Header is visible
+✓ Status Header is visible
+✓ User Profile is visible
+✓ Page Number is visible
+✓ Dashboard URL verified: https://test-cmm.origincrossmedia.com/measurement/report
+
+📊 Verification Summary: 13 passed, 0 failed
+✅ Dashboard verification completed
+
+📊 ========== FETCHING REPORTS TABLE DATA ==========
+Total Rows Found: 10
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 1                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : CrossMedia_Video_Other_2026-03-2 │
+│ Campaign       : CrossMedia_Campaign_2026-03-25T1 │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 2                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : CrossMedia_Display_Other_2026-03 │
+│ Campaign       : CrossMedia_Campaign_2026-03-25T1 │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 3                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : SingleEDP_Other_2026-03-25T10-14 │
+│ Campaign       : SingleEDP_OtherCampaign_2026-03- │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 4                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : SingleEDP_Video_2026-03-25T10-14 │
+│ Campaign       : SingleEDP_VideoCampaign_2026-03- │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 5                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : SingleEDP_Video_Linear TV_2026-0 │
+│ Campaign       : SingleEDP_VideoCampaignLinear TV │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 6                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : Report- 50 femail, male          │
+│ Campaign       : Report- 50 femail, male          │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 7                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : SingleEDP_Video_2026-03-25T10-13 │
+│ Campaign       : SingleEDP_VideoCampaign_2026-03- │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 8                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : SingleEDP_Other_2026-03-25T10-12 │
+│ Campaign       : SingleEDP_OtherCampaign_2026-03- │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 9                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : Batch Report 123_2026-03-25T10-1 │
+│ Campaign       : Batch Report 123_2026-03-25T10-1 │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 10                                              │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : Batch Report 123_2026-03-25T10-1 │
+│ Campaign       : Batch Report 123_2026-03-25T10-1 │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+===================================================
+
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T1060 Verify dashboard page pagination" classname="RegressionTestUIOriginTST.spec.ts" time="4.481">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+🔍 Verifying Origin Dashboard elements...
+✓ Welcome to Origin is visible
+✓ Reports is visible
+✓ Create Report Button is visible
+✓ Logout Button is visible
+✓ Home Link is visible
+✓ Reports Section is visible
+✓ Reports Table is visible
+✓ Report Name Header is visible
+✓ Campaign Header is visible
+✓ Created Date Header is visible
+✓ Status Header is visible
+✓ User Profile is visible
+✓ Page Number is visible
+✓ Dashboard URL verified: https://test-cmm.origincrossmedia.com/measurement/report
+
+📊 Verification Summary: 13 passed, 0 failed
+✅ Dashboard verification completed
+
+📊 ========== FETCHING REPORTS TABLE DATA ==========
+Total Rows Found: 10
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 1                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : CrossMedia_Video_Other_2026-03-2 │
+│ Campaign       : CrossMedia_Campaign_2026-03-25T1 │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 2                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : CrossMedia_Display_Other_2026-03 │
+│ Campaign       : CrossMedia_Campaign_2026-03-25T1 │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 3                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : SingleEDP_Other_2026-03-25T10-14 │
+│ Campaign       : SingleEDP_OtherCampaign_2026-03- │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 4                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : SingleEDP_Video_2026-03-25T10-14 │
+│ Campaign       : SingleEDP_VideoCampaign_2026-03- │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 5                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : SingleEDP_Video_Linear TV_2026-0 │
+│ Campaign       : SingleEDP_VideoCampaignLinear TV │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 6                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : Report- 50 femail, male          │
+│ Campaign       : Report- 50 femail, male          │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 7                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : SingleEDP_Video_2026-03-25T10-13 │
+│ Campaign       : SingleEDP_VideoCampaign_2026-03- │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 8                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : SingleEDP_Other_2026-03-25T10-12 │
+│ Campaign       : SingleEDP_OtherCampaign_2026-03- │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 9                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : Batch Report 123_2026-03-25T10-1 │
+│ Campaign       : Batch Report 123_2026-03-25T10-1 │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 10                                              │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : Batch Report 123_2026-03-25T10-1 │
+│ Campaign       : Batch Report 123_2026-03-25T10-1 │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+===================================================
+
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T1051 Verify Created by filter functionality from Dashboard " classname="RegressionTestUIOriginTST.spec.ts" time="4.362">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+🔍 Verifying Dashboard filters...
+✅ Filter functionality verified
+🔍 Verifying Origin Dashboard elements...
+✓ Welcome to Origin is visible
+✓ Reports is visible
+✓ Create Report Button is visible
+✓ Logout Button is visible
+✓ Home Link is visible
+✓ Reports Section is visible
+✓ Reports Table is visible
+✓ Report Name Header is visible
+✓ Campaign Header is visible
+✓ Created Date Header is visible
+✓ Status Header is visible
+✓ User Profile is visible
+✓ Page Number is visible
+✓ Dashboard URL verified: https://test-cmm.origincrossmedia.com/measurement/report
+
+📊 Verification Summary: 13 passed, 0 failed
+✅ Dashboard verification completed
+
+📊 ========== FETCHING REPORTS TABLE DATA ==========
+Total Rows Found: 10
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 1                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : CrossMedia_Video_Other_2026-03-2 │
+│ Campaign       : CrossMedia_Campaign_2026-03-25T1 │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 2                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : CrossMedia_Display_Other_2026-03 │
+│ Campaign       : CrossMedia_Campaign_2026-03-25T1 │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 3                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : SingleEDP_Other_2026-03-25T10-14 │
+│ Campaign       : SingleEDP_OtherCampaign_2026-03- │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 4                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : SingleEDP_Video_2026-03-25T10-14 │
+│ Campaign       : SingleEDP_VideoCampaign_2026-03- │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 5                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : SingleEDP_Video_Linear TV_2026-0 │
+│ Campaign       : SingleEDP_VideoCampaignLinear TV │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 6                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : SingleEDP_Video_2026-03-25T10-13 │
+│ Campaign       : SingleEDP_VideoCampaign_2026-03- │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 7                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : SingleEDP_Other_2026-03-25T10-12 │
+│ Campaign       : SingleEDP_OtherCampaign_2026-03- │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 8                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : Batch Report 123_2026-03-25T10-1 │
+│ Campaign       : Batch Report 123_2026-03-25T10-1 │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 9                                               │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : Batch Report 123_2026-03-25T10-1 │
+│ Campaign       : Batch Report 123_2026-03-25T10-1 │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│ ROW 10                                              │
+├─────────────────────────────────────────────────────┤
+│ Report Name    : SingleEDP_Other_2026-03-25T10-11 │
+│ Campaign       : SingleEDP_OtherCampaign_2026-03- │
+│ Created Date   : 25 March 202625-03-2026          │
+⏳ Report is still in progress  In progress
+│ Status         : In progress                      │
+└─────────────────────────────────────────────────────┘
+
+===================================================
+
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T1488 Privacy Notice updated to final version with the correct version of the Privacy Notice with Origin Media Measurement Limited as company name" classname="RegressionTestUIOriginTST.spec.ts" time="8.696">
+<system-out>
+<![CDATA[🔍 Testing Privacy Policy Link Visibility...
+🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Privacy Policy link is visible and clickable
+✅ Privacy Policy link visibility test passed
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T1182 Verify an Audit banner is displaying on Review report page" classname="RegressionTestUIOriginTST.spec.ts" time="12.774">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: SingleEDP_Other_2026-03-25T10-16-30
+✓ Campaign group created with name: SingleEDP_OtherCampaign_2026-03-25T10-16-30
+✓ Other checkbox clicked
+✓ Clicked on screen to defocus
+✓ Other media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+✓ Save campaign group button clicked successfully
+✓ Campaign submitted successfully
+📅 Adding 2 days to date: 26 December 2025
+✓ Result: 26 December 2025 + 2 days = 28 Dec 2025
+📅 Cal Start date: 26 December 2025
+📅 Cal End date: 29 December 2025
+📅 Start date: 28 Dec 2025
+🗓️ Navigating to calendar date: 28 Dec 2025
+📅 Selecting date from calendar: 28 Dec 2025
+🎯 Target date parsed: 28/12/2025
+Wait for calendar to appear
+ Find month and year display element
+navigate To Target Year
+📅 Navigating to year: 2025
+Current calendar year: 2025, Target: 2025
+✓ Reached target year: 2025
+✓ year element found
+navigate To Target Month
+📅 Navigating to month: December 2025
+Current: DECEMBER 2025, Target: December 2025
+✓ Reached target month: December 2025
+✓ Month element found
+🎯 Selecting day: 28 in December 2025
+Select the date from the calendar: 28
+🎯 Looking for day: 28
+Found 31 day elements to check
+✓ Found matching day: 28
+✓ Click successful on attempt 1
+✅ Successfully clicked on day 28
+✅ Successfully selected date: 28 Dec 2025
+🔍 Verifying date selection: 28 Dec 2025
+✅ Date successfully selected: [object Promise]
+✓ Demographics selected
+✓ Found selected date: 28 December 2025
+✓ Measured Impression selected
+🎯 Starting report metrics selection...
+📊 Total Reach Percentage Start value: 1
+📊 Total Reach Percentage End value: 15
+✓ Unique Reach selected via JavaScript click
+✓ Average Frequency selected via JavaScript click
+✓ Impressions selected via JavaScript click
+✅ Report metrics selection completed successfully
+Reporting Metrics Text: Total Reach (1+) % to (15+) %, GRPs
+✓  Audit banner is displayed on Review report page
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH- T1251 Verify removed Cumulative reach data label when campaign period filter is less than 1week" classname="RegressionTestUIOriginTST.spec.ts" time="13.122">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: SingleEDP_Other_2026-03-25T10-16-43
+✓ Campaign group created with name: SingleEDP_OtherCampaign_2026-03-25T10-16-43
+✓ Other checkbox clicked
+✓ Clicked on screen to defocus
+✓ Other media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+✓ Save campaign group button clicked successfully
+✓ Campaign submitted successfully
+📅 Adding 2 days to date: 26 December 2025
+✓ Result: 26 December 2025 + 2 days = 28 Dec 2025
+📅 Cal Start date: 26 December 2025
+📅 Cal End date: 29 December 2025
+📅 Start date: 28 Dec 2025
+🗓️ Navigating to calendar date: 28 Dec 2025
+📅 Selecting date from calendar: 28 Dec 2025
+🎯 Target date parsed: 28/12/2025
+Wait for calendar to appear
+ Find month and year display element
+navigate To Target Year
+📅 Navigating to year: 2025
+Current calendar year: 2025, Target: 2025
+✓ Reached target year: 2025
+✓ year element found
+navigate To Target Month
+📅 Navigating to month: December 2025
+Current: DECEMBER 2025, Target: December 2025
+✓ Reached target month: December 2025
+✓ Month element found
+🎯 Selecting day: 28 in December 2025
+Select the date from the calendar: 28
+🎯 Looking for day: 28
+Found 31 day elements to check
+✓ Found matching day: 28
+✓ Click successful on attempt 1
+✅ Successfully clicked on day 28
+✅ Successfully selected date: 28 Dec 2025
+🔍 Verifying date selection: 28 Dec 2025
+✅ Date successfully selected: [object Promise]
+✓ Demographics selected
+✓ Found selected date: 28 December 2025
+✓ Measured Impression selected
+🎯 Starting report metrics validation...
+📊 Total Reach Percentage Start value: 1
+📊 Total Reach Percentage End value: 15
+✓ Unique Reach selected via JavaScript click
+✓ Average Frequency selected via JavaScript click
+✓ Impressions selected via JavaScript click
+✅ Report metrics page validated successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T1343 Feature Flag for Total Reach frequency 15+ (Set to ON)" classname="RegressionTestUIOriginTST.spec.ts" time="16.147">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: SingleEDP_Other_2026-03-25T10-16-59
+✓ Campaign group created with name: SingleEDP_OtherCampaign_2026-03-25T10-16-59
+✓ Other checkbox clicked
+✓ Clicked on screen to defocus
+✓ Other media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+✓ Save campaign group button clicked successfully
+✓ Campaign submitted successfully
+📅 Adding 2 days to date: 26 December 2025
+✓ Result: 26 December 2025 + 2 days = 28 Dec 2025
+📅 Cal Start date: 26 December 2025
+📅 Cal End date: 29 December 2025
+📅 Start date: 28 Dec 2025
+🗓️ Navigating to calendar date: 28 Dec 2025
+📅 Selecting date from calendar: 28 Dec 2025
+🎯 Target date parsed: 28/12/2025
+Wait for calendar to appear
+ Find month and year display element
+navigate To Target Year
+📅 Navigating to year: 2025
+Current calendar year: 2025, Target: 2025
+✓ Reached target year: 2025
+✓ year element found
+navigate To Target Month
+📅 Navigating to month: December 2025
+Current: DECEMBER 2025, Target: December 2025
+✓ Reached target month: December 2025
+✓ Month element found
+🎯 Selecting day: 28 in December 2025
+Select the date from the calendar: 28
+🎯 Looking for day: 28
+Found 31 day elements to check
+✓ Found matching day: 28
+✓ Click successful on attempt 1
+✅ Successfully clicked on day 28
+✅ Successfully selected date: 28 Dec 2025
+🔍 Verifying date selection: 28 Dec 2025
+✅ Date successfully selected: [object Promise]
+✓ Demographics selected
+✓ Found selected date: 28 December 2025
+✓ Measured Impression selected
+🎯 Starting report metrics selection...
+📊 Total Reach Percentage Start value: 1
+📊 Total Reach Percentage End value: 15
+✓ Unique Reach selected via JavaScript click
+✓ Average Frequency selected via JavaScript click
+✓ Impressions selected via JavaScript click
+✅ Report metrics selection completed successfully
+Reporting Metrics Text: Total Reach (1+) % to (15+) %, GRPs
+✓  Audit banner is displayed on Review report page
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T1019 Verify the renamed title of &quot;Search for adverts&quot;" classname="RegressionTestUIOriginTST.spec.ts" time="5.146">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: SingleEDP_Other_2026-03-25T10-17-13
+✓ Campaign group created with name: SingleEDP_OtherCampaign_2026-03-25T10-17-13
+✓ Page title "Search for adverts" contains advert: Search for adverts
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T952 Verify media type filter button is displaying in Campaign page" classname="RegressionTestUIOriginTST.spec.ts" time="6.514">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: SingleEDP_Other_2026-03-25T10-17-19
+✓ Campaign group created with name: SingleEDP_OtherCampaign_2026-03-25T10-17-19
+✓ Page title "Search for adverts" contains advert: Search for adverts
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-1508 Nods Media Type must be Preselected by default" classname="RegressionTestUIOriginTST.spec.ts" time="5.781">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: SingleEDP_Other_2026-03-25T10-17-24
+✓ Campaign group created with name: SingleEDP_OtherCampaign_2026-03-25T10-17-24
+✓ Other checkbox clicked
+✓ Clicked on screen to defocus
+✓ Other media type selected
+✓ Search the Campaign group
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T491 Verify to Media Type Column has values" classname="RegressionTestUIOriginTST.spec.ts" time="9.78">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: SingleEDP_Other_2026-03-25T10-17-32
+✓ Campaign group created with name: SingleEDP_OtherCampaign_2026-03-25T10-17-32
+✓ Other checkbox clicked
+✓ Clicked on screen to defocus
+✓ Other media type selected
+✓ Search the Campaign group
+✓ Table headers found: Advert, Brand, Measured Entity, Media Type, TV On Air Dates, Start Date, End Date
+✓ Row 1: {"Advert":"Add to campaignmetaAquila6","Brand":"SuperBrand12","Measured Entity":"Fastflix","Media Type":"Other","TV On Air Dates":"-","Start Date":"12 May 2025","End Date":"29 Dec 2025"}
+✓ Row 2: {"Advert":"Add to campaignmetaAquila5","Brand":"SuperBrand11","Measured Entity":"Fastflix","Media Type":"Other","TV On Air Dates":"-","Start Date":"25 May 2025","End Date":"29 Dec 2025"}
+✓ Row 3: {"Advert":"Add to campaignmetaAquila3","Brand":"SuperBrand9","Measured Entity":"Fastflix","Media Type":"Other","TV On Air Dates":"-","Start Date":"25 May 2025","End Date":"29 Dec 2025"}
+✓ Row 4: {"Advert":"Add to campaignmetaAquila4","Brand":"SuperBrand10","Measured Entity":"Fastflix","Media Type":"Other","TV On Air Dates":"-","Start Date":"25 May 2025","End Date":"27 Dec 2025"}
+✓ Row 5: {"Advert":"Add to campaignStreamZoneAquila5","Brand":"StreamZone10","Measured Entity":"StreamZone","Media Type":"Other","TV On Air Dates":"-","Start Date":"01 Jul 2025","End Date":"01 Jan 2027"}
+✓ Row 6: {"Advert":"Add to campaignmetaOrigin4","Brand":"SuperBrand4","Measured Entity":"Fastflix","Media Type":"Other","TV On Air Dates":"-","Start Date":"15 Aug 2025","End Date":"07 Nov 2026"}
+✓ Row 7: {"Advert":"Add to campaignStreamZoneAquila4","Brand":"StreamZone9","Measured Entity":"StreamZone","Media Type":"Other","TV On Air Dates":"-","Start Date":"29 Aug 2025","End Date":"07 Nov 2026"}
+✓ Row 8: {"Advert":"Add to campaignmetaOrigin6","Brand":"SuperBrand6","Measured Entity":"Fastflix","Media Type":"Other","TV On Air Dates":"-","Start Date":"01 Sep 2025","End Date":"01 Jan 2027"}
+✓ Row 9: {"Advert":"Add to campaignmetaOrigin3","Brand":"SuperBrand3","Measured Entity":"Fastflix","Media Type":"Other","TV On Air Dates":"-","Start Date":"04 Sep 2025","End Date":"30 Sep 2035"}
+✓ Row 10: {"Advert":"Add to campaignmetaAquila2","Brand":"SuperBrand8","Measured Entity":"Fastflix","Media Type":"Other","TV On Air Dates":"-","Start Date":"30 Sep 2025","End Date":"01 Jan 2026"}
+✓ Total rows extracted: 10
+✓ Row 1: Media Type validated - "Other"
+✓ Row 2: Media Type validated - "Other"
+✓ Row 3: Media Type validated - "Other"
+✓ Row 4: Media Type validated - "Other"
+✓ Row 5: Media Type validated - "Other"
+✓ Row 6: Media Type validated - "Other"
+✓ Row 7: Media Type validated - "Other"
+✓ Row 8: Media Type validated - "Other"
+✓ Row 9: Media Type validated - "Other"
+✓ Row 10: Media Type validated - "Other"
+✓ Total rows extracted and validated: 10
+✓ First row from data list selected
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T1018 Verify the functionality of Advert and Brand name search " classname="RegressionTestUIOriginTST.spec.ts" time="8.759">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: SingleEDP_Other_2026-03-25T10-17-39
+✓ Campaign group created with name: SingleEDP_OtherCampaign_2026-03-25T10-17-39
+✓ Searching for: OriginVubox2
+✓ Searching for: Vubox2
+✓ Search the Campaign group with Advert and Brand
+✓ First row from data list selected
+✓ Save campaign group button clicked successfully
+✓ Campaign submitted successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-425 Verify of User de-selects a column " classname="RegressionTestUIOriginTST.spec.ts" time="7.271">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: SingleEDP_Video_2026-03-25T10-17-48
+✓ Campaign group created with name: SingleEDP_VideoCampaign_2026-03-25T10-17-49
+✓ Video checkbox clicked
+✓ Clicked on screen to defocus
+✓ Video media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+✓ Verified: First row checkbox is selected
+✓ First row from data list deselected
+✓ Verified: First row checkbox is deselected
+✓ First row from data list selected
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-426 Verify to User re-selects a column" classname="RegressionTestUIOriginTST.spec.ts" time="7.858">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Report name filled and entered: SingleEDP_Video_2026-03-25T10-17-56
+✓ Campaign group created with name: SingleEDP_VideoCampaign_2026-03-25T10-17-56
+✓ Video checkbox clicked
+✓ Clicked on screen to defocus
+✓ Video media type selected
+✓ Search the Campaign group
+✓ First row from data list selected
+✓ Verified: First row checkbox is selected
+✓ First row from data list deselected
+✓ Verified: First row checkbox is deselected
+✓ First row from data list selected
+✓ Save campaign group button clicked successfully
+✓ Campaign submitted successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression Pack › PDH-T745 Verify report name uniqueness" classname="RegressionTestUIOriginTST.spec.ts" time="6.418">
+<system-out>
+<![CDATA[🔐 Loading credentials for TST environment
+✓ Logging in with user: Isb***@accenture.com
+✓ Cookies modal closed
+✓ Terms and service accepted
+✓ Attempted to create report with name: SingleEDP_Other
+✓ Verified: Duplicate report name error displayed - "This report name is already in use within your organization. Please enter a new name."
+ℹ Duplicate report name confirmed; exiting this test flow from createReportUniqueness.
+✓ Verified: Report name "SingleEDP_Other" is identified as duplicate.
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

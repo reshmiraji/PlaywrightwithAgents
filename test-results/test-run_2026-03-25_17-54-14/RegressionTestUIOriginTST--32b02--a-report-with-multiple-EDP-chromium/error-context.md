@@ -1,0 +1,130 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - region [ref=e4]:
+    - generic [ref=e5]:
+      - generic:
+        - img [ref=e6]
+        - img [ref=e7]
+      - button [ref=e8]:
+        - button [ref=e9] [cursor=pointer]:
+          - img [ref=e10]
+      - button [ref=e11]:
+        - button [ref=e12] [cursor=pointer]:
+          - img [ref=e13]
+      - button [ref=e14]:
+        - button [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+      - button [ref=e17]:
+        - button [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+      - button [ref=e20]:
+        - button [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+      - button [ref=e23]:
+        - button [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+    - generic [ref=e26]:
+      - button [ref=e27] [cursor=pointer]:
+        - img [ref=e28]
+      - generic [ref=e29]:
+        - img [ref=e30]
+        - generic [ref=e31]: isba_test@accenture.com
+      - button [ref=e33] [cursor=pointer]:
+        - img [ref=e34]
+  - generic [ref=e36]:
+    - generic [ref=e37]:
+      - heading "Multiple_EDP_2026-03-25T17-54-20" [level=1] [ref=e39]
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - generic [ref=e43]:
+              - generic [ref=e44]: Search for adverts
+              - generic [ref=e45]: Use the search bar and filters to search for the adverts that you would like to add to your report. Please also provide the campaign name below.
+            - button "Download all available campaigns" [ref=e46] [cursor=pointer]
+          - generic [ref=e48]:
+            - generic [ref=e49] [cursor=pointer]: Campaign Name
+            - textbox "Campaign Name" [ref=e50]:
+              - /placeholder: Please provide a name for the campaign you will add to your report
+              - text: Multiple_EDP_Campaign_2026-03-25T17-54-20
+            - generic [ref=e51]:
+              - generic [ref=e52]:
+                - textbox [ref=e53]:
+                  - /placeholder: Search for an advert or brand
+                - img [ref=e54]
+              - button "Bulk search" [ref=e55] [cursor=pointer]
+              - button "Fastflix" [ref=e57] [cursor=pointer]:
+                - generic [ref=e58]: Fastflix
+                - img [ref=e59]
+              - button "Media Type" [ref=e61] [cursor=pointer]:
+                - generic [ref=e62]: Media Type
+                - img [ref=e63]
+              - button "Campaign Date Range*" [ref=e65] [cursor=pointer]:
+                - img [ref=e66]
+                - generic [ref=e67]: Campaign Date Range*
+              - button "Search" [active] [ref=e68] [cursor=pointer]
+              - generic [ref=e69]:
+                - button "Clear all filters" [ref=e70] [cursor=pointer]
+                - paragraph [ref=e71]: or
+                - button "List all available ads" [ref=e72] [cursor=pointer]
+          - paragraph [ref=e73]: "*Please note: This view includes campaigns for Meta that ended within the last 89 days, and Google and TV campaigns that ended on or after 21 March 2025. Campaigns outside these timeframes are not shown due to data availability."
+        - generic [ref=e74]:
+          - generic [ref=e76]:
+            - button [ref=e77] [cursor=pointer]:
+              - img [ref=e78]
+            - generic [ref=e79]:
+              - generic [ref=e80]:
+                - generic [ref=e81]:
+                  - generic [ref=e82]: Search results
+                  - generic [ref=e83]: The filtered search results for adverts are shown below.
+                - button "Download results" [disabled] [ref=e85]
+              - table [ref=e86]:
+                - rowgroup [ref=e87]:
+                  - row "Advert Brand Measured Entity Media Type TV On Air Dates Start Date End Date" [ref=e88]:
+                    - columnheader "Advert" [ref=e89]:
+                      - generic [ref=e90]: Advert
+                    - columnheader "Brand" [ref=e91]:
+                      - generic [ref=e92]: Brand
+                    - columnheader "Measured Entity" [ref=e93]:
+                      - generic [ref=e94]: Measured Entity
+                    - columnheader "Media Type" [ref=e95]:
+                      - generic [ref=e96]: Media Type
+                    - columnheader "TV On Air Dates" [ref=e97]:
+                      - generic [ref=e98]: TV On Air Dates
+                    - columnheader "Start Date" [ref=e99]:
+                      - generic [ref=e100]: Start Date
+                    - columnheader "End Date" [ref=e101]:
+                      - generic [ref=e104]: End Date
+              - generic [ref=e105]:
+                - img [ref=e106]
+                - paragraph [ref=e107]: Your results will show up here
+                - paragraph [ref=e108]: Use the search bar and filters above to view results.
+                - paragraph
+          - generic [ref=e109]:
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - generic [ref=e113]: Selected Adverts
+                - generic [ref=e114]: The adverts you have selected are shown below.
+              - button "Download selection" [disabled] [ref=e116]
+            - table [ref=e117]:
+              - rowgroup [ref=e118]:
+                - row "Advert Brand Measured Entity Media Type TV On Air Dates Start date End date" [ref=e119]:
+                  - columnheader "Advert" [ref=e120]
+                  - columnheader "Brand" [ref=e121]
+                  - columnheader "Measured Entity" [ref=e122]
+                  - columnheader "Media Type" [ref=e123]
+                  - columnheader "TV On Air Dates" [ref=e124]
+                  - columnheader "Start date" [ref=e125]
+                  - columnheader "End date" [ref=e126]
+              - rowgroup [ref=e127]:
+                - row "No adverts selected! The adverts you select from the table above will be shown here." [ref=e128]:
+                  - cell "No adverts selected! The adverts you select from the table above will be shown here." [ref=e129]:
+                    - generic [ref=e130]:
+                      - img [ref=e131]
+                      - paragraph [ref=e132]: No adverts selected!
+                      - paragraph [ref=e133]: The adverts you select from the table above will be shown here.
+                      - paragraph
+    - contentinfo [ref=e134]:
+      - button "Save & Continue" [disabled] [ref=e136]
+```

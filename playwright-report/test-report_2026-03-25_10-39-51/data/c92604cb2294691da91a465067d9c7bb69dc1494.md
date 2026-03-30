@@ -1,0 +1,203 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - region [ref=e4]:
+    - generic [ref=e5]:
+      - generic:
+        - img [ref=e6]
+        - img [ref=e7]
+      - button [ref=e8]:
+        - button [ref=e9] [cursor=pointer]:
+          - img [ref=e10]
+      - button [ref=e11]:
+        - button [ref=e12] [cursor=pointer]:
+          - img [ref=e13]
+      - button [ref=e14]:
+        - button [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+      - button [ref=e17]:
+        - button [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+      - button [ref=e20]:
+        - button [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+      - button [ref=e23]:
+        - button [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+    - generic [ref=e26]:
+      - button [ref=e27] [cursor=pointer]:
+        - img [ref=e28]
+      - generic [ref=e29]:
+        - img [ref=e30]
+        - generic [ref=e31]: isba_test@accenture.com
+      - button [ref=e33] [cursor=pointer]:
+        - img [ref=e34]
+  - generic [ref=e35]:
+    - generic [ref=e36]:
+      - heading "Welcome to Origin" [level=1] [ref=e37]
+      - generic [ref=e38]:
+        - heading "Reports" [level=2] [ref=e39]
+        - generic [ref=e40]:
+          - button "Download" [disabled] [ref=e41]:
+            - img [ref=e42]
+            - generic [ref=e43]: Download
+          - button "Create Report" [ref=e44] [cursor=pointer]:
+            - img [ref=e45]
+            - generic [ref=e46]: Create Report
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - textbox [ref=e49]:
+            - /placeholder: Search for a report name or campaign
+          - img [ref=e50]
+        - button "Created Date" [ref=e52] [cursor=pointer]:
+          - img [ref=e53]
+          - generic [ref=e54]: Created Date
+        - button "Status" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]: Status
+          - img [ref=e58]
+        - button "Created By" [ref=e60] [cursor=pointer]:
+          - generic [ref=e61]: Created By
+          - img [ref=e62]
+        - button "Clear all filters" [ref=e63] [cursor=pointer]
+      - generic [ref=e65]:
+        - table [ref=e67]:
+          - rowgroup [ref=e68]:
+            - row "Report Name Campaign Created Date Status" [ref=e69]:
+              - columnheader "Report Name" [ref=e70]:
+                - generic [ref=e71]: Report Name
+              - columnheader "Campaign" [ref=e72]
+              - columnheader "Created Date" [ref=e73]
+              - columnheader "Status" [ref=e74]
+          - rowgroup [ref=e75]:
+            - row "CrossMedia_Display_Other_2026-03-25T10-45-13 CrossMedia_Campaign_2026-03-25T10-45-13 25 March 2026 In progress" [ref=e76]:
+              - cell "CrossMedia_Display_Other_2026-03-25T10-45-13" [ref=e77]:
+                - generic [ref=e79]:
+                  - checkbox [ref=e81]
+                  - tooltip "CrossMedia_Display_Other_2026-03-25T10-45-13" [ref=e82]
+              - cell "CrossMedia_Campaign_2026-03-25T10-45-13" [ref=e83]:
+                - tooltip "CrossMedia_Campaign_2026-03-25T10-45-13" [ref=e85]
+              - cell "25 March 2026" [ref=e86]:
+                - generic [ref=e87]: 25 March 2026
+              - cell "In progress" [ref=e88]:
+                - generic [ref=e89]: In progress
+            - row "SingleEDP_Other_2026-03-25T10-45-00 SingleEDP_OtherCampaign_2026-03-25T10-45-00 25 March 2026 In progress" [ref=e90]:
+              - cell "SingleEDP_Other_2026-03-25T10-45-00" [ref=e91]:
+                - generic [ref=e93]:
+                  - checkbox [ref=e95]
+                  - tooltip "SingleEDP_Other_2026-03-25T10-45-00" [ref=e96]
+              - cell "SingleEDP_OtherCampaign_2026-03-25T10-45-00" [ref=e97]:
+                - tooltip "SingleEDP_OtherCampaign_2026-03-25T10-45-00" [ref=e99]
+              - cell "25 March 2026" [ref=e100]:
+                - generic [ref=e101]: 25 March 2026
+              - cell "In progress" [ref=e102]:
+                - generic [ref=e103]: In progress
+            - row "SingleEDP_Video_2026-03-25T10-44-40 SingleEDP_VideoCampaign_2026-03-25T10-44-40 25 March 2026 In progress" [ref=e104]:
+              - cell "SingleEDP_Video_2026-03-25T10-44-40" [ref=e105]:
+                - generic [ref=e107]:
+                  - checkbox [ref=e109]
+                  - tooltip "SingleEDP_Video_2026-03-25T10-44-40" [ref=e110]
+              - cell "SingleEDP_VideoCampaign_2026-03-25T10-44-40" [ref=e111]:
+                - tooltip "SingleEDP_VideoCampaign_2026-03-25T10-44-40" [ref=e113]
+              - cell "25 March 2026" [ref=e114]:
+                - generic [ref=e115]: 25 March 2026
+              - cell "In progress" [ref=e116]:
+                - generic [ref=e117]: In progress
+            - row "SingleEDP_Video_Linear TV_2026-03-25T10-44-23 SingleEDP_VideoCampaignLinear TV_2026-03-25T10-44-23 25 March 2026 In progress" [ref=e118]:
+              - cell "SingleEDP_Video_Linear TV_2026-03-25T10-44-23" [ref=e119]:
+                - generic [ref=e121]:
+                  - checkbox [ref=e123]
+                  - tooltip "SingleEDP_Video_Linear TV_2026-03-25T10-44-23" [ref=e124]
+              - cell "SingleEDP_VideoCampaignLinear TV_2026-03-25T10-44-23" [ref=e125]:
+                - tooltip "SingleEDP_VideoCampaignLinear TV_2026-03-25T10-44-23" [ref=e127]
+              - cell "25 March 2026" [ref=e128]:
+                - generic [ref=e129]: 25 March 2026
+              - cell "In progress" [ref=e130]:
+                - generic [ref=e131]: In progress
+            - row "SingleEDP_Video_2026-03-25T10-44-04 SingleEDP_VideoCampaign_2026-03-25T10-44-04 25 March 2026 In progress" [ref=e132]:
+              - cell "SingleEDP_Video_2026-03-25T10-44-04" [ref=e133]:
+                - generic [ref=e135]:
+                  - checkbox [ref=e137]
+                  - tooltip "SingleEDP_Video_2026-03-25T10-44-04" [ref=e138]
+              - cell "SingleEDP_VideoCampaign_2026-03-25T10-44-04" [ref=e139]:
+                - tooltip "SingleEDP_VideoCampaign_2026-03-25T10-44-04" [ref=e141]
+              - cell "25 March 2026" [ref=e142]:
+                - generic [ref=e143]: 25 March 2026
+              - cell "In progress" [ref=e144]:
+                - generic [ref=e145]: In progress
+            - row "SingleEDP_Other_2026-03-25T10-42-49 SingleEDP_OtherCampaign_2026-03-25T10-42-49 25 March 2026 In progress" [ref=e146]:
+              - cell "SingleEDP_Other_2026-03-25T10-42-49" [ref=e147]:
+                - generic [ref=e149]:
+                  - checkbox [ref=e151]
+                  - tooltip "SingleEDP_Other_2026-03-25T10-42-49" [ref=e152]
+              - cell "SingleEDP_OtherCampaign_2026-03-25T10-42-49" [ref=e153]:
+                - tooltip "SingleEDP_OtherCampaign_2026-03-25T10-42-49" [ref=e155]
+              - cell "25 March 2026" [ref=e156]:
+                - generic [ref=e157]: 25 March 2026
+              - cell "In progress" [ref=e158]:
+                - generic [ref=e159]: In progress
+            - row "Batch Report 123_2026-03-25T10-41-35 Batch Report 123_2026-03-25T10-41-35 25 March 2026 In progress" [ref=e160]:
+              - cell "Batch Report 123_2026-03-25T10-41-35" [ref=e161]:
+                - generic [ref=e163]:
+                  - checkbox [ref=e165]
+                  - tooltip "Batch Report 123_2026-03-25T10-41-35" [ref=e166]
+              - cell "Batch Report 123_2026-03-25T10-41-35" [ref=e167]:
+                - tooltip "Batch Report 123_2026-03-25T10-41-35" [ref=e169]
+              - cell "25 March 2026" [ref=e170]:
+                - generic [ref=e171]: 25 March 2026
+              - cell "In progress" [ref=e172]:
+                - generic [ref=e173]: In progress
+            - row "SingleEDP_Other_2026-03-25T10-41-21 SingleEDP_OtherCampaign_2026-03-25T10-41-21 25 March 2026 In progress" [ref=e174]:
+              - cell "SingleEDP_Other_2026-03-25T10-41-21" [ref=e175]:
+                - generic [ref=e177]:
+                  - checkbox [ref=e179]
+                  - tooltip "SingleEDP_Other_2026-03-25T10-41-21" [ref=e180]
+              - cell "SingleEDP_OtherCampaign_2026-03-25T10-41-21" [ref=e181]:
+                - tooltip "SingleEDP_OtherCampaign_2026-03-25T10-41-21" [ref=e183]
+              - cell "25 March 2026" [ref=e184]:
+                - generic [ref=e185]: 25 March 2026
+              - cell "In progress" [ref=e186]:
+                - generic [ref=e187]: In progress
+            - row "Multiple_EDP_2026-03-25T10-40-23 Multiple_EDP_Campaign_2026-03-25T10-40-23 25 March 2026 In progress" [ref=e188]:
+              - cell "Multiple_EDP_2026-03-25T10-40-23" [ref=e189]:
+                - generic [ref=e191]:
+                  - checkbox [ref=e193]
+                  - tooltip "Multiple_EDP_2026-03-25T10-40-23" [ref=e194]
+              - cell "Multiple_EDP_Campaign_2026-03-25T10-40-23" [ref=e195]:
+                - tooltip "Multiple_EDP_Campaign_2026-03-25T10-40-23" [ref=e197]
+              - cell "25 March 2026" [ref=e198]:
+                - generic [ref=e199]: 25 March 2026
+              - cell "In progress" [ref=e200]:
+                - generic [ref=e201]: In progress
+            - row "SingleEDP_Display_2026-03-25T10-40-04 SingleEDP_DisplayCampaign_2026-03-25T10-40-04 25 March 2026 In progress" [ref=e202]:
+              - cell "SingleEDP_Display_2026-03-25T10-40-04" [ref=e203]:
+                - generic [ref=e205]:
+                  - checkbox [ref=e207]
+                  - tooltip "SingleEDP_Display_2026-03-25T10-40-04" [ref=e208]
+              - cell "SingleEDP_DisplayCampaign_2026-03-25T10-40-04" [ref=e209]:
+                - tooltip "SingleEDP_DisplayCampaign_2026-03-25T10-40-04" [ref=e211]
+              - cell "25 March 2026" [ref=e212]:
+                - generic [ref=e213]: 25 March 2026
+              - cell "In progress" [ref=e214]:
+                - generic [ref=e215]: In progress
+        - contentinfo [ref=e216]:
+          - generic [ref=e217]:
+            - button "Previous" [disabled] [ref=e218]:
+              - img [ref=e219]
+              - generic [ref=e220]: Previous
+            - generic [ref=e221]: Page 1 of 465
+            - button "Next" [ref=e222] [cursor=pointer]:
+              - generic [ref=e223]: Next
+              - img [ref=e224]
+    - generic [ref=e228]:
+      - generic [ref=e229]:
+        - img [ref=e230]
+        - img [ref=e231] [cursor=pointer]
+      - paragraph [ref=e232]: About cookies on this site
+      - paragraph [ref=e233]:
+        - text: We use cookies on your device to operate this site which are necessary for this site to work or otherwise do not require your consent under applicable laws. For more information on how we use cookies please read our
+        - link "Privacy Notice" [ref=e234] [cursor=pointer]:
+          - /url: /measurement/privacynotice
+        - text: .
+      - paragraph [ref=e236] [cursor=pointer]: Settings
+```

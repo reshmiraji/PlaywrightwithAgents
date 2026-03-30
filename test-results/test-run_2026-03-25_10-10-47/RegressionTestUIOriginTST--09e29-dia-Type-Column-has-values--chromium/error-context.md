@@ -1,0 +1,337 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - region [ref=e4]:
+    - generic [ref=e5]:
+      - generic:
+        - img [ref=e6]
+        - img [ref=e7]
+      - button [ref=e8]:
+        - button [ref=e9] [cursor=pointer]:
+          - img [ref=e10]
+      - button [ref=e11]:
+        - button [ref=e12] [cursor=pointer]:
+          - img [ref=e13]
+      - button [ref=e14]:
+        - button [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+      - button [ref=e17]:
+        - button [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+      - button [ref=e20]:
+        - button [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+      - button [ref=e23]:
+        - button [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+    - generic [ref=e26]:
+      - button [ref=e27] [cursor=pointer]:
+        - img [ref=e28]
+      - generic [ref=e29]:
+        - img [ref=e30]
+        - generic [ref=e31]: isba_test@accenture.com
+      - button [ref=e33] [cursor=pointer]:
+        - img [ref=e34]
+  - generic [ref=e36]:
+    - generic [ref=e37]:
+      - heading "SingleEDP_Other_2026-03-25T10-10-57" [level=1] [ref=e39]
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - generic [ref=e43]:
+              - generic [ref=e44]: Search for adverts
+              - generic [ref=e45]: Use the search bar and filters to search for the adverts that you would like to add to your report. Please also provide the campaign name below.
+            - button "Download all available campaigns" [ref=e46] [cursor=pointer]
+          - generic [ref=e48]:
+            - generic [ref=e49] [cursor=pointer]: Campaign Name
+            - textbox "Campaign Name" [ref=e50]:
+              - /placeholder: Please provide a name for the campaign you will add to your report
+              - text: SingleEDP_OtherCampaign_2026-03-25T10-10-57
+            - generic [ref=e51]:
+              - generic [ref=e52]:
+                - textbox [ref=e53]:
+                  - /placeholder: Search for an advert or brand
+                - img [ref=e54]
+              - button "Bulk search" [ref=e55] [cursor=pointer]
+              - button "Measured Entity" [ref=e57] [cursor=pointer]:
+                - generic [ref=e58]: Measured Entity
+                - img [ref=e59]
+              - button "Other" [ref=e61] [cursor=pointer]:
+                - generic [ref=e62]: Other
+                - img [ref=e63]
+              - button "Campaign Date Range*" [ref=e65] [cursor=pointer]:
+                - img [ref=e66]
+                - generic [ref=e67]: Campaign Date Range*
+              - button "Search" [ref=e68] [cursor=pointer]
+              - generic [ref=e69]:
+                - button "Clear all filters" [ref=e70] [cursor=pointer]
+                - paragraph [ref=e71]: or
+                - button "List all available ads" [ref=e72] [cursor=pointer]
+          - paragraph [ref=e73]: "*Please note: This view includes campaigns for Meta that ended within the last 89 days, and Google and TV campaigns that ended on or after 21 March 2025. Campaigns outside these timeframes are not shown due to data availability."
+        - generic [ref=e74]:
+          - generic [ref=e76]:
+            - button [ref=e77] [cursor=pointer]:
+              - img [ref=e78]
+            - generic [ref=e79]:
+              - generic [ref=e80]:
+                - generic [ref=e81]:
+                  - generic [ref=e82]: Search results
+                  - generic [ref=e83]: The filtered search results for adverts are shown below.
+                - button "Download results" [ref=e85] [cursor=pointer]
+              - table [ref=e86]:
+                - rowgroup [ref=e87]:
+                  - row "Advert Brand Measured Entity Media Type TV On Air Dates Start Date End Date" [ref=e88]:
+                    - columnheader "Advert" [ref=e89]
+                    - columnheader "Brand" [ref=e90]
+                    - columnheader "Measured Entity" [ref=e91]
+                    - columnheader "Media Type" [ref=e92]
+                    - columnheader "TV On Air Dates" [ref=e93]
+                    - columnheader "Start Date" [ref=e94]
+                    - columnheader "End Date" [ref=e95]:
+                      - generic [ref=e97]: End Date
+                - rowgroup [ref=e98]:
+                  - row "Add to campaign metaAquila6 SuperBrand12 Fastflix Other - 12 May 2025 29 Dec 2025" [ref=e99]:
+                    - cell "Add to campaign metaAquila6" [ref=e100]:
+                      - generic [ref=e101]:
+                        - tooltip "Add to campaign" [ref=e103] [cursor=pointer]:
+                          - checkbox [checked] [ref=e104]
+                          - img [ref=e105]
+                          - generic [ref=e106]: Add to campaign
+                        - tooltip "metaAquila6" [ref=e107]
+                    - cell "SuperBrand12" [ref=e108]:
+                      - tooltip "SuperBrand12" [ref=e110]
+                    - cell "Fastflix" [ref=e111]:
+                      - tooltip "Fastflix" [ref=e113]
+                    - cell "Other" [ref=e114]:
+                      - tooltip "Other" [ref=e116]
+                    - cell "-" [ref=e117]:
+                      - tooltip "-" [ref=e119]
+                    - cell "12 May 2025" [ref=e120]:
+                      - generic [ref=e122]: 12 May 2025
+                    - cell "29 Dec 2025" [ref=e123]:
+                      - generic [ref=e125]: 29 Dec 2025
+                  - row "metaAquila5 SuperBrand11 Fastflix Other - 25 May 2025 29 Dec 2025" [ref=e126]:
+                    - cell "metaAquila5" [ref=e127]:
+                      - generic [ref=e128]:
+                        - tooltip [ref=e130] [cursor=pointer]:
+                          - checkbox [ref=e131]
+                          - img [ref=e132]
+                        - tooltip "metaAquila5" [ref=e133]
+                    - cell "SuperBrand11" [ref=e134]:
+                      - tooltip "SuperBrand11" [ref=e136]
+                    - cell "Fastflix" [ref=e137]:
+                      - tooltip "Fastflix" [ref=e139]
+                    - cell "Other" [ref=e140]:
+                      - tooltip "Other" [ref=e142]
+                    - cell "-" [ref=e143]:
+                      - tooltip "-" [ref=e145]
+                    - cell "25 May 2025" [ref=e146]:
+                      - generic [ref=e148]: 25 May 2025
+                    - cell "29 Dec 2025" [ref=e149]:
+                      - generic [ref=e151]: 29 Dec 2025
+                  - row "metaAquila3 SuperBrand9 Fastflix Other - 25 May 2025 29 Dec 2025" [ref=e152]:
+                    - cell "metaAquila3" [ref=e153]:
+                      - generic [ref=e154]:
+                        - tooltip [ref=e156] [cursor=pointer]:
+                          - checkbox [ref=e157]
+                          - img [ref=e158]
+                        - tooltip "metaAquila3" [ref=e159]
+                    - cell "SuperBrand9" [ref=e160]:
+                      - tooltip "SuperBrand9" [ref=e162]
+                    - cell "Fastflix" [ref=e163]:
+                      - tooltip "Fastflix" [ref=e165]
+                    - cell "Other" [ref=e166]:
+                      - tooltip "Other" [ref=e168]
+                    - cell "-" [ref=e169]:
+                      - tooltip "-" [ref=e171]
+                    - cell "25 May 2025" [ref=e172]:
+                      - generic [ref=e174]: 25 May 2025
+                    - cell "29 Dec 2025" [ref=e175]:
+                      - generic [ref=e177]: 29 Dec 2025
+                  - row "metaAquila4 SuperBrand10 Fastflix Other - 25 May 2025 27 Dec 2025" [ref=e178]:
+                    - cell "metaAquila4" [ref=e179]:
+                      - generic [ref=e180]:
+                        - tooltip [ref=e182] [cursor=pointer]:
+                          - checkbox [ref=e183]
+                          - img [ref=e184]
+                        - tooltip "metaAquila4" [ref=e185]
+                    - cell "SuperBrand10" [ref=e186]:
+                      - tooltip "SuperBrand10" [ref=e188]
+                    - cell "Fastflix" [ref=e189]:
+                      - tooltip "Fastflix" [ref=e191]
+                    - cell "Other" [ref=e192]:
+                      - tooltip "Other" [ref=e194]
+                    - cell "-" [ref=e195]:
+                      - tooltip "-" [ref=e197]
+                    - cell "25 May 2025" [ref=e198]:
+                      - generic [ref=e200]: 25 May 2025
+                    - cell "27 Dec 2025" [ref=e201]:
+                      - generic [ref=e203]: 27 Dec 2025
+                  - row "StreamZoneAquila5 StreamZone10 StreamZone Other - 01 Jul 2025 01 Jan 2027" [ref=e204]:
+                    - cell "StreamZoneAquila5" [ref=e205]:
+                      - generic [ref=e206]:
+                        - tooltip [ref=e208] [cursor=pointer]:
+                          - checkbox [ref=e209]
+                          - img [ref=e210]
+                        - tooltip "StreamZoneAquila5" [ref=e211]
+                    - cell "StreamZone10" [ref=e212]:
+                      - tooltip "StreamZone10" [ref=e214]
+                    - cell "StreamZone" [ref=e215]:
+                      - tooltip "StreamZone" [ref=e217]
+                    - cell "Other" [ref=e218]:
+                      - tooltip "Other" [ref=e220]
+                    - cell "-" [ref=e221]:
+                      - tooltip "-" [ref=e223]
+                    - cell "01 Jul 2025" [ref=e224]:
+                      - generic [ref=e226]: 01 Jul 2025
+                    - cell "01 Jan 2027" [ref=e227]:
+                      - generic [ref=e229]: 01 Jan 2027
+                  - row "metaOrigin4 SuperBrand4 Fastflix Other - 15 Aug 2025 07 Nov 2026" [ref=e230]:
+                    - cell "metaOrigin4" [ref=e231]:
+                      - generic [ref=e232]:
+                        - tooltip [ref=e234] [cursor=pointer]:
+                          - checkbox [ref=e235]
+                          - img [ref=e236]
+                        - tooltip "metaOrigin4" [ref=e237]
+                    - cell "SuperBrand4" [ref=e238]:
+                      - tooltip "SuperBrand4" [ref=e240]
+                    - cell "Fastflix" [ref=e241]:
+                      - tooltip "Fastflix" [ref=e243]
+                    - cell "Other" [ref=e244]:
+                      - tooltip "Other" [ref=e246]
+                    - cell "-" [ref=e247]:
+                      - tooltip "-" [ref=e249]
+                    - cell "15 Aug 2025" [ref=e250]:
+                      - generic [ref=e252]: 15 Aug 2025
+                    - cell "07 Nov 2026" [ref=e253]:
+                      - generic [ref=e255]: 07 Nov 2026
+                  - row "StreamZoneAquila4 StreamZone9 StreamZone Other - 29 Aug 2025 07 Nov 2026" [ref=e256]:
+                    - cell "StreamZoneAquila4" [ref=e257]:
+                      - generic [ref=e258]:
+                        - tooltip [ref=e260] [cursor=pointer]:
+                          - checkbox [ref=e261]
+                          - img [ref=e262]
+                        - tooltip "StreamZoneAquila4" [ref=e263]
+                    - cell "StreamZone9" [ref=e264]:
+                      - tooltip "StreamZone9" [ref=e266]
+                    - cell "StreamZone" [ref=e267]:
+                      - tooltip "StreamZone" [ref=e269]
+                    - cell "Other" [ref=e270]:
+                      - tooltip "Other" [ref=e272]
+                    - cell "-" [ref=e273]:
+                      - tooltip "-" [ref=e275]
+                    - cell "29 Aug 2025" [ref=e276]:
+                      - generic [ref=e278]: 29 Aug 2025
+                    - cell "07 Nov 2026" [ref=e279]:
+                      - generic [ref=e281]: 07 Nov 2026
+                  - row "metaOrigin6 SuperBrand6 Fastflix Other - 01 Sep 2025 01 Jan 2027" [ref=e282]:
+                    - cell "metaOrigin6" [ref=e283]:
+                      - generic [ref=e284]:
+                        - tooltip [ref=e286] [cursor=pointer]:
+                          - checkbox [ref=e287]
+                          - img [ref=e288]
+                        - tooltip "metaOrigin6" [ref=e289]
+                    - cell "SuperBrand6" [ref=e290]:
+                      - tooltip "SuperBrand6" [ref=e292]
+                    - cell "Fastflix" [ref=e293]:
+                      - tooltip "Fastflix" [ref=e295]
+                    - cell "Other" [ref=e296]:
+                      - tooltip "Other" [ref=e298]
+                    - cell "-" [ref=e299]:
+                      - tooltip "-" [ref=e301]
+                    - cell "01 Sep 2025" [ref=e302]:
+                      - generic [ref=e304]: 01 Sep 2025
+                    - cell "01 Jan 2027" [ref=e305]:
+                      - generic [ref=e307]: 01 Jan 2027
+                  - row "metaOrigin3 SuperBrand3 Fastflix Other - 04 Sep 2025 30 Sep 2035" [ref=e308]:
+                    - cell "metaOrigin3" [ref=e309]:
+                      - generic [ref=e310]:
+                        - tooltip [ref=e312] [cursor=pointer]:
+                          - checkbox [ref=e313]
+                          - img [ref=e314]
+                        - tooltip "metaOrigin3" [ref=e315]
+                    - cell "SuperBrand3" [ref=e316]:
+                      - tooltip "SuperBrand3" [ref=e318]
+                    - cell "Fastflix" [ref=e319]:
+                      - tooltip "Fastflix" [ref=e321]
+                    - cell "Other" [ref=e322]:
+                      - tooltip "Other" [ref=e324]
+                    - cell "-" [ref=e325]:
+                      - tooltip "-" [ref=e327]
+                    - cell "04 Sep 2025" [ref=e328]:
+                      - generic [ref=e330]: 04 Sep 2025
+                    - cell "30 Sep 2035" [ref=e331]:
+                      - generic [ref=e333]: 30 Sep 2035
+                  - row "metaAquila2 SuperBrand8 Fastflix Other - 30 Sep 2025 01 Jan 2026" [ref=e334]:
+                    - cell "metaAquila2" [ref=e335]:
+                      - generic [ref=e336]:
+                        - tooltip [ref=e338] [cursor=pointer]:
+                          - checkbox [ref=e339]
+                          - img [ref=e340]
+                        - tooltip "metaAquila2" [ref=e341]
+                    - cell "SuperBrand8" [ref=e342]:
+                      - tooltip "SuperBrand8" [ref=e344]
+                    - cell "Fastflix" [ref=e345]:
+                      - tooltip "Fastflix" [ref=e347]
+                    - cell "Other" [ref=e348]:
+                      - tooltip "Other" [ref=e350]
+                    - cell "-" [ref=e351]:
+                      - tooltip "-" [ref=e353]
+                    - cell "30 Sep 2025" [ref=e354]:
+                      - generic [ref=e356]: 30 Sep 2025
+                    - cell "01 Jan 2026" [ref=e357]:
+                      - generic [ref=e359]: 01 Jan 2026
+            - contentinfo [ref=e360]:
+              - generic [ref=e361]:
+                - generic [ref=e362]:
+                  - generic [ref=e363]: "Rows:"
+                  - button "10" [ref=e365] [cursor=pointer]:
+                    - generic [ref=e366]: "10"
+                    - img [ref=e367]
+                - button "Previous" [disabled] [ref=e368]:
+                  - img [ref=e369]
+                  - generic [ref=e370]: Previous
+                - generic [ref=e371]: Page 1 of 2
+                - button "Next" [ref=e372] [cursor=pointer]:
+                  - generic [ref=e373]: Next
+                  - img [ref=e374]
+          - generic [ref=e375]:
+            - generic [ref=e377]:
+              - generic [ref=e378]:
+                - generic [ref=e379]: Selected Adverts
+                - generic [ref=e380]: The adverts you have selected are shown below.
+              - button "Download selection" [ref=e382] [cursor=pointer]
+            - table [ref=e383]:
+              - rowgroup [ref=e384]:
+                - row "Advert Brand Measured Entity Media Type TV On Air Dates Start date End date" [ref=e385]:
+                  - columnheader "Advert" [ref=e386]
+                  - columnheader "Brand" [ref=e387]
+                  - columnheader "Measured Entity" [ref=e388]
+                  - columnheader "Media Type" [ref=e389]
+                  - columnheader "TV On Air Dates" [ref=e390]
+                  - columnheader "Start date" [ref=e391]
+                  - columnheader "End date" [ref=e392]
+              - rowgroup [ref=e393]:
+                - row "metaAquila6 SuperBrand12 Fastflix Other - 12 May 2025 29 Dec 2025" [ref=e394]:
+                  - cell "metaAquila6" [ref=e395]:
+                    - generic [ref=e396]:
+                      - tooltip [ref=e397]:
+                        - button [ref=e398] [cursor=pointer]:
+                          - img [ref=e399]
+                      - button "metaAquila6" [ref=e400]
+                  - cell "SuperBrand12" [ref=e401]:
+                    - button "SuperBrand12" [ref=e403]
+                  - cell "Fastflix" [ref=e404]:
+                    - button "Fastflix" [ref=e406]
+                  - cell "Other" [ref=e407]:
+                    - button "Other" [ref=e409]
+                  - cell "-" [ref=e410]:
+                    - tooltip "-" [ref=e412]
+                  - cell "12 May 2025" [ref=e413]:
+                    - tooltip "12 May 2025" [ref=e415]
+                  - cell "29 Dec 2025" [ref=e416]:
+                    - tooltip "29 Dec 2025" [ref=e418]
+    - contentinfo [ref=e419]:
+      - button "Save & Continue" [ref=e421] [cursor=pointer]
+```

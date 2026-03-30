@@ -1,0 +1,198 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - region [ref=e4]:
+    - generic [ref=e5]:
+      - generic:
+        - img [ref=e6]
+        - img [ref=e7]
+      - button [ref=e8]:
+        - button [ref=e9] [cursor=pointer]:
+          - img [ref=e10]
+      - button [ref=e11]:
+        - button [ref=e12] [cursor=pointer]:
+          - img [ref=e13]
+      - button [ref=e14]:
+        - button [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+      - button [ref=e17]:
+        - button [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+      - button [ref=e20]:
+        - button [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+      - button [ref=e23]:
+        - button [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+    - generic [ref=e26]:
+      - button [ref=e27] [cursor=pointer]:
+        - img [ref=e28]
+      - generic [ref=e29]:
+        - img [ref=e30]
+        - generic [ref=e31]: isba_test@accenture.com
+      - button [ref=e33] [cursor=pointer]:
+        - img [ref=e34]
+  - generic [ref=e36]:
+    - generic [ref=e37]:
+      - heading "SingleEDP_Video_Linear TV_2026-03-25T14-21-42" [level=1] [ref=e39]
+      - generic [ref=e41]:
+        - generic [ref=e42]: Select report filters
+        - generic [ref=e43]: Please choose the filters that you would like to apply to your report.
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - generic [ref=e48] [cursor=pointer]: Start Date
+              - tooltip [ref=e49] [cursor=pointer]:
+                - img [ref=e50]
+            - button "10 April 2025" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e54]: 10 April 2025
+            - generic [ref=e55]:
+              - generic [ref=e56] [cursor=pointer]: End Date
+              - tooltip [ref=e57] [cursor=pointer]:
+                - img [ref=e58]
+            - generic [ref=e59]:
+              - button "10 April 2025" [active] [ref=e60] [cursor=pointer]:
+                - img [ref=e61]
+                - generic [ref=e62]: 10 April 2025
+              - generic [ref=e64]:
+                - generic [ref=e65]:
+                  - button "«" [disabled] [ref=e66]
+                  - button "‹" [disabled] [ref=e67]
+                  - button "April 2025" [ref=e68]:
+                    - generic [ref=e69]: April 2025
+                  - button "›" [disabled] [ref=e70]
+                  - button "»" [disabled] [ref=e71]
+                - generic [ref=e75]:
+                  - generic [ref=e76]:
+                    - generic [ref=e77]: Mon
+                    - generic [ref=e78]: Tue
+                    - generic [ref=e79]: Wed
+                    - generic [ref=e80]: Thu
+                    - generic [ref=e81]: Fri
+                    - generic [ref=e82]: Sat
+                    - generic [ref=e83]: Sun
+                  - generic [ref=e84]:
+                    - button "April 1, 2025" [disabled] [ref=e85]:
+                      - generic "April 1, 2025" [ref=e86]: "1"
+                    - button "April 2, 2025" [disabled] [ref=e87]:
+                      - generic "April 2, 2025" [ref=e88]: "2"
+                    - button "April 3, 2025" [disabled] [ref=e89]:
+                      - generic "April 3, 2025" [ref=e90]: "3"
+                    - button "April 4, 2025" [disabled] [ref=e91]:
+                      - generic "April 4, 2025" [ref=e92]: "4"
+                    - button "April 5, 2025" [disabled] [ref=e93]:
+                      - generic "April 5, 2025" [ref=e94]: "5"
+                    - button "April 6, 2025" [disabled] [ref=e95]:
+                      - generic "April 6, 2025" [ref=e96]: "6"
+                    - button "April 7, 2025" [disabled] [ref=e97]:
+                      - generic "April 7, 2025" [ref=e98]: "7"
+                    - button "April 8, 2025" [disabled] [ref=e99]:
+                      - generic "April 8, 2025" [ref=e100]: "8"
+                    - button "April 9, 2025" [disabled] [ref=e101]:
+                      - generic "April 9, 2025" [ref=e102]: "9"
+                    - button "April 10, 2025" [ref=e103]:
+                      - generic "April 10, 2025" [ref=e104]: "10"
+                    - button "April 11, 2025" [disabled] [ref=e105]:
+                      - generic "April 11, 2025" [ref=e106]: "11"
+                    - button "April 12, 2025" [disabled] [ref=e107]:
+                      - generic "April 12, 2025" [ref=e108]: "12"
+                    - button "April 13, 2025" [disabled] [ref=e109]:
+                      - generic "April 13, 2025" [ref=e110]: "13"
+                    - button "April 14, 2025" [disabled] [ref=e111]:
+                      - generic "April 14, 2025" [ref=e112]: "14"
+                    - button "April 15, 2025" [disabled] [ref=e113]:
+                      - generic "April 15, 2025" [ref=e114]: "15"
+                    - button "April 16, 2025" [disabled] [ref=e115]:
+                      - generic "April 16, 2025" [ref=e116]: "16"
+                    - button "April 17, 2025" [disabled] [ref=e117]:
+                      - generic "April 17, 2025" [ref=e118]: "17"
+                    - button "April 18, 2025" [disabled] [ref=e119]:
+                      - generic "April 18, 2025" [ref=e120]: "18"
+                    - button "April 19, 2025" [disabled] [ref=e121]:
+                      - generic "April 19, 2025" [ref=e122]: "19"
+                    - button "April 20, 2025" [disabled] [ref=e123]:
+                      - generic "April 20, 2025" [ref=e124]: "20"
+                    - button "April 21, 2025" [disabled] [ref=e125]:
+                      - generic "April 21, 2025" [ref=e126]: "21"
+                    - button "April 22, 2025" [disabled] [ref=e127]:
+                      - generic "April 22, 2025" [ref=e128]: "22"
+                    - button "April 23, 2025" [disabled] [ref=e129]:
+                      - generic "April 23, 2025" [ref=e130]: "23"
+                    - button "April 24, 2025" [disabled] [ref=e131]:
+                      - generic "April 24, 2025" [ref=e132]: "24"
+                    - button "April 25, 2025" [disabled] [ref=e133]:
+                      - generic "April 25, 2025" [ref=e134]: "25"
+                    - button "April 26, 2025" [disabled] [ref=e135]:
+                      - generic "April 26, 2025" [ref=e136]: "26"
+                    - button "April 27, 2025" [disabled] [ref=e137]:
+                      - generic "April 27, 2025" [ref=e138]: "27"
+                    - button "April 28, 2025" [disabled] [ref=e139]:
+                      - generic "April 28, 2025" [ref=e140]: "28"
+                    - button "April 29, 2025" [disabled] [ref=e141]:
+                      - generic "April 29, 2025" [ref=e142]: "29"
+                    - button "April 30, 2025" [disabled] [ref=e143]:
+                      - generic "April 30, 2025" [ref=e144]: "30"
+            - generic [ref=e145]:
+              - generic [ref=e146]:
+                - paragraph [ref=e147]: Select Audience
+                - paragraph [ref=e148]: Choose how you want to analyse your audience.
+                - generic [ref=e149]: You can only select one option below.
+              - generic [ref=e150]:
+                - 'button "Option 1: Build a single audience group Combine one or more audience segments into a single view." [ref=e151] [cursor=pointer]':
+                  - generic [ref=e152]:
+                    - generic:
+                      - generic:
+                        - checkbox [checked]
+                    - generic [ref=e154]:
+                      - paragraph [ref=e155]: "Option 1: Build a single audience group"
+                      - paragraph [ref=e156]: Combine one or more audience segments into a single view.
+                  - img [ref=e158]
+                - generic [ref=e159]:
+                  - generic [ref=e160]:
+                    - paragraph [ref=e161]: "What you'll get: A unified report showing aggregated data for your selected segments. If you select multiple segments, you'll see combined metrics - not individual breakdowns."
+                    - paragraph [ref=e162]: "Important: This option shows data only for your selected segment(s). You will not see a comparison to \"All Adults\" data."
+                    - paragraph [ref=e163]: "Example: If you select \"Female 35-54\" and \"Female 55+\", the report will show combined metrics for \"Female 35+\", not side by side comparisons."
+                  - text: Audience
+                  - button "Select one or more segments to include in a single audience group." [ref=e166] [cursor=pointer]:
+                    - generic [ref=e167]: Select one or more segments to include in a single audience group.
+                    - img [ref=e168]
+              - 'button "Option 2: Include all segments View all segments with side-by-side comparisons." [ref=e170] [cursor=pointer]':
+                - generic [ref=e171]:
+                  - generic:
+                    - generic:
+                      - checkbox
+                  - generic [ref=e173]:
+                    - paragraph [ref=e174]: "Option 2: Include all segments"
+                    - paragraph [ref=e175]: View all segments with side-by-side comparisons.
+                - img [ref=e177]
+          - generic [ref=e178]:
+            - generic [ref=e179]: Select impression filters
+            - generic [ref=e180]: Defaults will be reported alongside any custom impression filters that you define.
+            - generic [ref=e181]:
+              - list [ref=e182]:
+                - listitem [ref=e183] [cursor=pointer]: Custom (optional)
+                - listitem [ref=e184] [cursor=pointer]: MRC Standard (default)
+                - listitem [ref=e185] [cursor=pointer]: All Measurable Impressions (default)
+              - generic [ref=e188]:
+                - generic [ref=e189]: If you do not apply the custom filters below, your report will only contain the MRC Standard and All Measurable Impressions results.
+                - generic [ref=e190]:
+                  - paragraph [ref=e191] [cursor=pointer]: Viewability
+                  - tooltip [ref=e192]:
+                    - img [ref=e193] [cursor=pointer]
+                - button "Please Select" [ref=e195] [cursor=pointer]:
+                  - generic [ref=e196]: Please Select
+                  - img [ref=e197]
+                - article [ref=e198]: The percentage of pixels visible on the screen.
+                - generic [ref=e199]:
+                  - paragraph [ref=e200] [cursor=pointer]: Digital Video Completion Status
+                  - tooltip [ref=e201]:
+                    - img [ref=e202] [cursor=pointer]
+                - button "Please Select" [ref=e204] [cursor=pointer]:
+                  - generic [ref=e205]: Please Select
+                  - img [ref=e206]
+                - article [ref=e207]: The duration of a video ad that was viewed.
+    - contentinfo [ref=e208]:
+      - button "Continue" [disabled] [ref=e210]
+```

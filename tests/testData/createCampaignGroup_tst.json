@@ -1,0 +1,62 @@
+{
+	"campaignGroupName": "create CG",
+	"createdBy": "auth0|643e4e76e33280c0feb94af3",
+	"creationDate": 1764834620895,
+	"measurementConsumer": "measurementConsumers/Ceq6zPONCi0",
+	"campaignStartDate": "06-09-2025",
+	"campaignEndDate": "27-11-2025",
+	"mediaTypes": [
+		"DISPLAY",
+		"OTHER"
+	],
+	"dataSources": [
+		"dataProviders/SVf4UiJmHl4",
+		"dataProviders/GYPvFN2Z4Ug"
+	],
+	"externalEventGroupIdsByEdp": {
+		"dataProviders/SVf4UiJmHl4": [
+			"sim-eg-edp1-vuboxdisplay5-v2"
+		],
+		"dataProviders/GYPvFN2Z4Ug": [
+			"sim-eg-edp3-fastflixother9-v2"
+		]
+	},
+	"eventGroupDataByEdp": {
+		"dataProviders/SVf4UiJmHl4": {
+			"eventGroupsByMedia": {
+				"VIDEO": [],
+				"DISPLAY": [
+					{
+						"metadata": {
+							"campaignEndDate": "11-12-2025",
+							"displayName": "OriginVubox5",
+							"brand": "Vubox5",
+							"campaignStartDate": "21-03-2025"
+						},
+						"eventGroupName": "dataProviders/SVf4UiJmHl4/eventGroups/C_87kCFCiFU",
+						"channel": "Digital"
+					}
+				],
+				"OTHER": []
+			}
+		},
+		"dataProviders/GYPvFN2Z4Ug": {
+			"eventGroupsByMedia": {
+				"VIDEO": [],
+				"DISPLAY": [],
+				"OTHER": [
+					{
+						"metadata": {
+							"campaignEndDate": "04-11-2025",
+							"displayName": "metaAquila3",
+							"brand": "SuperBrand9",
+							"campaignStartDate": "10-08-2025"
+						},
+						"eventGroupName": "dataProviders/GYPvFN2Z4Ug/eventGroups/d-teISFE49s",
+						"channel": "Digital"
+					}
+				]
+			}
+		}
+	}
+}

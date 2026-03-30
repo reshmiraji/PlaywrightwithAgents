@@ -1,0 +1,39 @@
+steps:
+  - name: node:18
+    entrypoint: sh
+    args:
+      - -c
+      - |
+        echo "Running Playwright tests"
+        echo "TEST_ENV received: ${_TEST_ENV}"
+
+        export TEST_ENV=${_TEST_ENV}
+
+        npm ci
+        npx playwright install --with-deps
+
+        npx playwright test \
+          tests/RegressionTestUIOriginTST.spec.ts \
+          || true 
+
+  - name: gcr.io/cloud-builders/gsutil
+    entrypoint: sh
+    args:
+      - -c
+      - |
+        echo "Uploading Playwright report to GCS"
+        gsutil -m cp -r playwright-report/test-report_* \
+          gs://origin-cross-media-automation/reports/${_TEST_ENV}/
+        gsutil -m cp -r playwright-report \
+          gs://origin-cross-media-automation/reports/${_TEST_ENV}/${BUILD_ID}/
+
+        gsutil -m cp -r test-results \
+          gs://origin-cross-media-automation/reports/${_TEST_ENV}/${BUILD_ID}/
+          
+# substitutions:
+# _TEST_ENV: "TST"
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+  
+tags: ['${_TEST_ENV}']

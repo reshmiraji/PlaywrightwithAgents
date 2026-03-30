@@ -1,0 +1,201 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - region [ref=e4]:
+    - generic [ref=e5]:
+      - generic:
+        - img [ref=e6]
+        - img [ref=e7]
+      - button [ref=e8]:
+        - button [ref=e9] [cursor=pointer]:
+          - img [ref=e10]
+      - button [ref=e11]:
+        - button [ref=e12] [cursor=pointer]:
+          - img [ref=e13]
+      - button [ref=e14]:
+        - button [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+      - button [ref=e17]:
+        - button [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+      - button [ref=e20]:
+        - button [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+      - button [ref=e23]:
+        - button [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - img [ref=e28]
+        - generic [ref=e29]: isba_test@accenture.com
+      - button [ref=e31] [cursor=pointer]:
+        - img [ref=e32]
+  - generic [ref=e33]:
+    - generic [ref=e34]:
+      - heading "Welcome to Origin" [level=1] [ref=e35]
+      - generic [ref=e36]:
+        - heading "Reports" [level=2] [ref=e37]
+        - generic [ref=e38]:
+          - button "Download" [disabled] [ref=e39]:
+            - img [ref=e40]
+            - generic [ref=e41]: Download
+          - button "Create Report" [ref=e42] [cursor=pointer]:
+            - img [ref=e43]
+            - generic [ref=e44]: Create Report
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - textbox [ref=e47]:
+            - /placeholder: Search for a report name or campaign
+          - img [ref=e48]
+        - button "Created Date" [ref=e50] [cursor=pointer]:
+          - img [ref=e51]
+          - generic [ref=e52]: Created Date
+        - button "Status" [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]: Status
+          - img [ref=e56]
+        - button "Created By" [ref=e58] [cursor=pointer]:
+          - generic [ref=e59]: Created By
+          - img [ref=e60]
+        - button "Clear all filters" [ref=e61] [cursor=pointer]
+      - generic [ref=e63]:
+        - table [ref=e65]:
+          - rowgroup [ref=e66]:
+            - row "Report Name Campaign Created Date Status" [ref=e67]:
+              - columnheader "Report Name" [ref=e68]:
+                - generic [ref=e69]: Report Name
+              - columnheader "Campaign" [ref=e70]
+              - columnheader "Created Date" [ref=e71]
+              - columnheader "Status" [ref=e72]
+          - rowgroup [ref=e73]:
+            - row "PerformanceTestReport_MetaEDPA_TV_20260220_063605364 TestReport_MetaEDPA_TV_20260220_063605364 20 February 2026 In progress" [ref=e74]:
+              - cell "PerformanceTestReport_MetaEDPA_TV_20260220_063605364" [ref=e75]:
+                - generic [ref=e77]:
+                  - checkbox [ref=e79]
+                  - tooltip "PerformanceTestReport_MetaEDPA_TV_20260220_063605364" [ref=e80]
+              - cell "TestReport_MetaEDPA_TV_20260220_063605364" [ref=e81]:
+                - tooltip "TestReport_MetaEDPA_TV_20260220_063605364" [ref=e83]
+              - cell "20 February 2026" [ref=e84]:
+                - generic [ref=e85]: 20 February 2026
+              - cell "In progress" [ref=e86]:
+                - generic [ref=e87]: In progress
+            - row "PerformanceTestReport_TV_Google_20260220_063454636 TestReport_TV_Google_20260220_063454636 20 February 2026 In progress" [ref=e88]:
+              - cell "PerformanceTestReport_TV_Google_20260220_063454636" [ref=e89]:
+                - generic [ref=e91]:
+                  - checkbox [ref=e93]
+                  - tooltip "PerformanceTestReport_TV_Google_20260220_063454636" [ref=e94]
+              - cell "TestReport_TV_Google_20260220_063454636" [ref=e95]:
+                - tooltip "TestReport_TV_Google_20260220_063454636" [ref=e97]
+              - cell "20 February 2026" [ref=e98]:
+                - generic [ref=e99]: 20 February 2026
+              - cell "In progress" [ref=e100]:
+                - generic [ref=e101]: In progress
+            - row "PerformanceTestReport_MetaEDPA_Google_20260220_063441086 TestReport_MetaEDPA_Google_20260220_063441086 20 February 2026 In progress" [ref=e102]:
+              - cell "PerformanceTestReport_MetaEDPA_Google_20260220_063441086" [ref=e103]:
+                - generic [ref=e105]:
+                  - checkbox [ref=e107]
+                  - tooltip "PerformanceTestReport_MetaEDPA_Google_20260220_063441086" [ref=e108]
+              - cell "TestReport_MetaEDPA_Google_20260220_063441086" [ref=e109]:
+                - tooltip "TestReport_MetaEDPA_Google_20260220_063441086" [ref=e111]
+              - cell "20 February 2026" [ref=e112]:
+                - generic [ref=e113]: 20 February 2026
+              - cell "In progress" [ref=e114]:
+                - generic [ref=e115]: In progress
+            - row "PerformanceTestReport_MetaEDPA_Google_TV_20260220_062545843 TestReport_MetaEDPA_Google_TV_20260220_062545843 20 February 2026 In progress" [ref=e116]:
+              - cell "PerformanceTestReport_MetaEDPA_Google_TV_20260220_062545843" [ref=e117]:
+                - generic [ref=e119]:
+                  - checkbox [ref=e121]
+                  - tooltip "PerformanceTestReport_MetaEDPA_Google_TV_20260220_062545843" [ref=e122]
+              - cell "TestReport_MetaEDPA_Google_TV_20260220_062545843" [ref=e123]:
+                - tooltip "TestReport_MetaEDPA_Google_TV_20260220_062545843" [ref=e125]
+              - cell "20 February 2026" [ref=e126]:
+                - generic [ref=e127]: 20 February 2026
+              - cell "In progress" [ref=e128]:
+                - generic [ref=e129]: In progress
+            - row "PerformanceTestReport_TV_Google_20260220_062458504 TestReport_TV_Google_20260220_062458504 20 February 2026 In progress" [ref=e130]:
+              - cell "PerformanceTestReport_TV_Google_20260220_062458504" [ref=e131]:
+                - generic [ref=e133]:
+                  - checkbox [ref=e135]
+                  - tooltip "PerformanceTestReport_TV_Google_20260220_062458504" [ref=e136]
+              - cell "TestReport_TV_Google_20260220_062458504" [ref=e137]:
+                - tooltip "TestReport_TV_Google_20260220_062458504" [ref=e139]
+              - cell "20 February 2026" [ref=e140]:
+                - generic [ref=e141]: 20 February 2026
+              - cell "In progress" [ref=e142]:
+                - generic [ref=e143]: In progress
+            - row "PerformanceTestReport_MetaEDPA_Google_20260220_061944491 TestReport_MetaEDPA_Google_20260220_061944491 20 February 2026 In progress" [ref=e144]:
+              - cell "PerformanceTestReport_MetaEDPA_Google_20260220_061944491" [ref=e145]:
+                - generic [ref=e147]:
+                  - checkbox [ref=e149]
+                  - tooltip "PerformanceTestReport_MetaEDPA_Google_20260220_061944491" [ref=e150]
+              - cell "TestReport_MetaEDPA_Google_20260220_061944491" [ref=e151]:
+                - tooltip "TestReport_MetaEDPA_Google_20260220_061944491" [ref=e153]
+              - cell "20 February 2026" [ref=e154]:
+                - generic [ref=e155]: 20 February 2026
+              - cell "In progress" [ref=e156]:
+                - generic [ref=e157]: In progress
+            - row "PerformanceTestReport_TV_Google_20260220_061445541 TestReport_TV_Google_20260220_061445541 20 February 2026 In progress" [ref=e158]:
+              - cell "PerformanceTestReport_TV_Google_20260220_061445541" [ref=e159]:
+                - generic [ref=e161]:
+                  - checkbox [ref=e163]
+                  - tooltip "PerformanceTestReport_TV_Google_20260220_061445541" [ref=e164]
+              - cell "TestReport_TV_Google_20260220_061445541" [ref=e165]:
+                - tooltip "TestReport_TV_Google_20260220_061445541" [ref=e167]
+              - cell "20 February 2026" [ref=e168]:
+                - generic [ref=e169]: 20 February 2026
+              - cell "In progress" [ref=e170]:
+                - generic [ref=e171]: In progress
+            - row "SingleEDP_Other_2026-02-20T06-07-52 SingleEDP_OtherCampaign_2026-02-20T06-07-52 20 February 2026 In progress" [ref=e172]:
+              - cell "SingleEDP_Other_2026-02-20T06-07-52" [ref=e173]:
+                - generic [ref=e175]:
+                  - checkbox [ref=e177]
+                  - tooltip "SingleEDP_Other_2026-02-20T06-07-52" [ref=e178]
+              - cell "SingleEDP_OtherCampaign_2026-02-20T06-07-52" [ref=e179]:
+                - tooltip "SingleEDP_OtherCampaign_2026-02-20T06-07-52" [ref=e181]
+              - cell "20 February 2026" [ref=e182]:
+                - generic [ref=e183]: 20 February 2026
+              - cell "In progress" [ref=e184]:
+                - generic [ref=e185]: In progress
+            - row "SingleEDP_Video_2026-02-20T06-07-34 SingleEDP_VideoCampaign_2026-02-20T06-07-35 20 February 2026 In progress" [ref=e186]:
+              - cell "SingleEDP_Video_2026-02-20T06-07-34" [ref=e187]:
+                - generic [ref=e189]:
+                  - checkbox [ref=e191]
+                  - tooltip "SingleEDP_Video_2026-02-20T06-07-34" [ref=e192]
+              - cell "SingleEDP_VideoCampaign_2026-02-20T06-07-35" [ref=e193]:
+                - tooltip "SingleEDP_VideoCampaign_2026-02-20T06-07-35" [ref=e195]
+              - cell "20 February 2026" [ref=e196]:
+                - generic [ref=e197]: 20 February 2026
+              - cell "In progress" [ref=e198]:
+                - generic [ref=e199]: In progress
+            - row "SingleEDP_Video_Linear TV_2026-02-20T06-07-20 SingleEDP_VideoCampaignLinear TV_2026-02-20T06-07-20 20 February 2026 In progress" [ref=e200]:
+              - cell "SingleEDP_Video_Linear TV_2026-02-20T06-07-20" [ref=e201]:
+                - generic [ref=e203]:
+                  - checkbox [ref=e205]
+                  - tooltip "SingleEDP_Video_Linear TV_2026-02-20T06-07-20" [ref=e206]
+              - cell "SingleEDP_VideoCampaignLinear TV_2026-02-20T06-07-20" [ref=e207]:
+                - tooltip "SingleEDP_VideoCampaignLinear TV_2026-02-20T06-07-20" [ref=e209]
+              - cell "20 February 2026" [ref=e210]:
+                - generic [ref=e211]: 20 February 2026
+              - cell "In progress" [ref=e212]:
+                - generic [ref=e213]: In progress
+        - contentinfo [ref=e214]:
+          - generic [ref=e215]:
+            - button "Previous" [disabled] [ref=e216]:
+              - img [ref=e217]
+              - generic [ref=e218]: Previous
+            - generic [ref=e219]: Page 1 of 1086
+            - button "Next" [ref=e220] [cursor=pointer]:
+              - generic [ref=e221]: Next
+              - img [ref=e222]
+    - generic [ref=e226]:
+      - generic [ref=e227]:
+        - img [ref=e228]
+        - img [ref=e229] [cursor=pointer]
+      - paragraph [ref=e230]: About cookies on this site
+      - paragraph [ref=e231]:
+        - text: We use cookies on your device to operate this site which are necessary for this site to work or otherwise do not require your consent under applicable laws. For more information on how we use cookies please read our
+        - link "Privacy Notice" [ref=e232] [cursor=pointer]:
+          - /url: /measurement/privacynotice
+        - text: .
+      - paragraph [ref=e234] [cursor=pointer]: Settings
+```

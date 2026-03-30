@@ -1,0 +1,82 @@
+{
+    "batchReportName": "Test Report 32s3221",
+    "measurementConsumer": "measurementConsumers/Ceq6zPONCi0",
+    "campaignGroup": {
+        "campaignGroupId": "f94f1f02-e739-4919-8f4b-b3b7f1c0a944",
+        "campaignGroupName": "Campaign 434 ter",
+        "eventGroups": [
+            {
+                "eventGroupName": "dataProviders/SVf4UiJmHl4/eventGroups/Ra7ghx8Onu4",
+                "eventGroupId": "measurementConsumers/Ceq6zPONCi0/eventGroups/Ra7ghx8Onu4",
+                "dataProviderId": "dataProviders/SVf4UiJmHl4",
+                "templateTypes": [
+                    "DISPLAY"
+                ],
+                "metadata": {
+                    "campaignEndDate": "20-11-2025",
+                    "displayName": "OriginVubox1",
+                    "brand": "Vubox1",
+                    "campaignStartDate": "18-03-2025"
+                }
+            }
+        ],
+        "measurementConsumer": "auth0|68873f749501ce15a332c8cb"
+    },
+    "filters": {
+        "display.viewable_50_percent_plus": true,
+        "demoSlicing": false,
+        "demographics": [
+            [
+                "Common.sex==FEMALE",
+                "Common.age_group==AGE_GROUP1",
+                "Common.age_group==AGE_GROUP2",
+                "Common.age_group==AGE_GROUP3"
+            ],
+            [
+                "Common.sex==MALE",
+                "Common.age_group==AGE_GROUP1",
+                "Common.age_group==AGE_GROUP2",
+                "Common.age_group==AGE_GROUP3"
+            ]
+        ]
+    },
+    "metricTypes": [
+        {
+            "type": "frequencyHistogramPercentageParam",
+            "value": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "isNumericIncluded": true
+        },
+        {
+            "type": "averageReachParams"
+        },
+        {
+            "type": "impressionCountParams"
+        },
+        {
+            "type": "grpParams"
+        }
+    ],
+    "batchReportStatus": "NEW",
+    "amiSelected": true,
+    "mrcVideoSelected": false,
+    "mrcDisplaySelected": true,
+    "customSelected": true,
+    "startDate": "2025-03-21T00:00:00Z",
+    "endDate": "2025-04-10T00:00:00Z"
+}

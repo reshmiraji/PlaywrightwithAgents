@@ -1,0 +1,335 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - region [ref=e4]:
+    - generic [ref=e5]:
+      - generic:
+        - img [ref=e6]
+        - img [ref=e7]
+      - button [ref=e8]:
+        - button [ref=e9] [cursor=pointer]:
+          - img [ref=e10]
+      - button [ref=e11]:
+        - button [ref=e12] [cursor=pointer]:
+          - img [ref=e13]
+      - button [ref=e14]:
+        - button [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+      - button [ref=e17]:
+        - button [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+      - button [ref=e20]:
+        - button [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+      - button [ref=e23]:
+        - button [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - img [ref=e28]
+        - generic [ref=e29]: isba_test@accenture.com
+      - button [ref=e31] [cursor=pointer]:
+        - img [ref=e32]
+  - generic [ref=e34]:
+    - generic [ref=e35]:
+      - heading "MaximumAllowedChar574_2026-02-20T06-48-26" [level=1] [ref=e37]
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e41]:
+              - generic [ref=e42]: Search for adverts
+              - generic [ref=e43]: Use the search bar and filters to search for the adverts that you would like to add to your report. Please also provide the campaign name below.
+            - button "Download all available campaigns" [ref=e44] [cursor=pointer]
+          - generic [ref=e46]:
+            - generic [ref=e47] [cursor=pointer]: Campaign Name
+            - textbox "Campaign Name" [ref=e48]:
+              - /placeholder: Please provide a name for the campaign you will add to your report
+              - text: aaaaaaaaaaaaaaaaanbnbbnaaaaabaaaaaaaaaaaaaffaaaaaaaaaaaaaaaaaaaaa
+            - paragraph [ref=e49]: The campaign name should be unique. Please update the name you have provided.
+            - generic [ref=e50]:
+              - generic [ref=e51]:
+                - textbox [ref=e52]:
+                  - /placeholder: Search for an advert or brand
+                - img [ref=e53]
+              - button "Bulk search" [ref=e54] [cursor=pointer]
+              - button "Measured Entity" [ref=e56] [cursor=pointer]:
+                - generic [ref=e57]: Measured Entity
+                - img [ref=e58]
+              - button "Other" [ref=e60] [cursor=pointer]:
+                - generic [ref=e61]: Other
+                - img [ref=e62]
+              - button "Campaign Date Range*" [ref=e64] [cursor=pointer]:
+                - img [ref=e65]
+                - generic [ref=e66]: Campaign Date Range*
+              - button "Search" [ref=e67] [cursor=pointer]
+              - generic [ref=e68]:
+                - button "Clear all filters" [ref=e69] [cursor=pointer]
+                - paragraph [ref=e70]: or
+                - button "List all available ads" [ref=e71] [cursor=pointer]
+          - paragraph [ref=e72]: "*Please note: This view includes campaigns for Meta that ended within the last 365 days, and Google and TV campaigns that ended on or after 21 March 2025. Campaigns outside these timeframes are not shown due to data availability."
+        - generic [ref=e73]:
+          - generic [ref=e75]:
+            - button [ref=e76] [cursor=pointer]:
+              - img [ref=e77]
+            - generic [ref=e78]:
+              - generic [ref=e79]:
+                - generic [ref=e80]:
+                  - generic [ref=e81]: Search results
+                  - generic [ref=e82]: The filtered search results for adverts are shown below.
+                - button "Download results" [ref=e84] [cursor=pointer]
+              - table [ref=e85]:
+                - rowgroup [ref=e86]:
+                  - row "Advert Brand Measured Entity Media Type TV On Air Dates Start Date End Date" [ref=e87]:
+                    - columnheader "Advert" [ref=e88]
+                    - columnheader "Brand" [ref=e89]
+                    - columnheader "Measured Entity" [ref=e90]
+                    - columnheader "Media Type" [ref=e91]
+                    - columnheader "TV On Air Dates" [ref=e92]
+                    - columnheader "Start Date" [ref=e93]
+                    - columnheader "End Date" [ref=e94]:
+                      - generic [ref=e96]: End Date
+                - rowgroup [ref=e97]:
+                  - row "tslz0QtDSMgH3dJdiOvS8uiWtNYXdA1sUg7jEvw3Dv0 VjjQAHcc4IlyGQ--LxSjmM3TirH3JS7iAIlUbhTqybg Amazon Prime Video Other - 10 Jan 2025 21 Mar 2026" [ref=e98]:
+                    - cell "tslz0QtDSMgH3dJdiOvS8uiWtNYXdA1sUg7jEvw3Dv0" [ref=e99]:
+                      - generic [ref=e100]:
+                        - tooltip [ref=e102] [cursor=pointer]:
+                          - checkbox [checked] [ref=e103]
+                          - img [ref=e104]
+                        - tooltip "tslz0QtDSMgH3dJdiOvS8uiWtNYXdA1sUg7jEvw3Dv0" [ref=e105]
+                    - cell "VjjQAHcc4IlyGQ--LxSjmM3TirH3JS7iAIlUbhTqybg" [ref=e106]:
+                      - tooltip "VjjQAHcc4IlyGQ--LxSjmM3TirH3JS7iAIlUbhTqybg" [ref=e108]
+                    - cell "Amazon Prime Video" [ref=e109]:
+                      - tooltip "Amazon Prime Video" [ref=e111]
+                    - cell "Other" [ref=e112]:
+                      - tooltip "Other" [ref=e114]
+                    - cell "-" [ref=e115]:
+                      - tooltip "-" [ref=e117]
+                    - cell "10 Jan 2025" [ref=e118]:
+                      - generic [ref=e120]: 10 Jan 2025
+                    - cell "21 Mar 2026" [ref=e121]:
+                      - generic [ref=e123]: 21 Mar 2026
+                  - row "Bouncy Curls 3 Happy Hair Amazon Prime Video Other - 02 Feb 2025 02 Jun 2025" [ref=e124]:
+                    - cell "Bouncy Curls 3" [ref=e125]:
+                      - generic [ref=e126]:
+                        - tooltip [ref=e128] [cursor=pointer]:
+                          - checkbox [ref=e129]
+                          - img [ref=e130]
+                        - tooltip "Bouncy Curls 3" [ref=e131]
+                    - cell "Happy Hair" [ref=e132]:
+                      - tooltip "Happy Hair" [ref=e134]
+                    - cell "Amazon Prime Video" [ref=e135]:
+                      - tooltip "Amazon Prime Video" [ref=e137]
+                    - cell "Other" [ref=e138]:
+                      - tooltip "Other" [ref=e140]
+                    - cell "-" [ref=e141]:
+                      - tooltip "-" [ref=e143]
+                    - cell "02 Feb 2025" [ref=e144]:
+                      - generic [ref=e146]: 02 Feb 2025
+                    - cell "02 Jun 2025" [ref=e147]:
+                      - generic [ref=e149]: 02 Jun 2025
+                  - row "Bouncy Curls 1 Happy Hair Meta EDPA Other - 02 Feb 2025 03 Jun 2025" [ref=e150]:
+                    - cell "Bouncy Curls 1" [ref=e151]:
+                      - generic [ref=e152]:
+                        - tooltip [ref=e154] [cursor=pointer]:
+                          - checkbox [ref=e155]
+                          - img [ref=e156]
+                        - tooltip "Bouncy Curls 1" [ref=e157]
+                    - cell "Happy Hair" [ref=e158]:
+                      - tooltip "Happy Hair" [ref=e160]
+                    - cell "Meta EDPA" [ref=e161]:
+                      - tooltip "Meta EDPA" [ref=e163]
+                    - cell "Other" [ref=e164]:
+                      - tooltip "Other" [ref=e166]
+                    - cell "-" [ref=e167]:
+                      - tooltip "-" [ref=e169]
+                    - cell "02 Feb 2025" [ref=e170]:
+                      - generic [ref=e172]: 02 Feb 2025
+                    - cell "03 Jun 2025" [ref=e173]:
+                      - generic [ref=e175]: 03 Jun 2025
+                  - row "Bouncy Curls 2 Happy Hair Meta EDPA Other - 02 Feb 2025 03 Jun 2025" [ref=e176]:
+                    - cell "Bouncy Curls 2" [ref=e177]:
+                      - generic [ref=e178]:
+                        - tooltip [ref=e180] [cursor=pointer]:
+                          - checkbox [ref=e181]
+                          - img [ref=e182]
+                        - tooltip "Bouncy Curls 2" [ref=e183]
+                    - cell "Happy Hair" [ref=e184]:
+                      - tooltip "Happy Hair" [ref=e186]
+                    - cell "Meta EDPA" [ref=e187]:
+                      - tooltip "Meta EDPA" [ref=e189]
+                    - cell "Other" [ref=e190]:
+                      - tooltip "Other" [ref=e192]
+                    - cell "-" [ref=e193]:
+                      - tooltip "-" [ref=e195]
+                    - cell "02 Feb 2025" [ref=e196]:
+                      - generic [ref=e198]: 02 Feb 2025
+                    - cell "03 Jun 2025" [ref=e199]:
+                      - generic [ref=e201]: 03 Jun 2025
+                  - row "Eurozone Add-on 3 Roam Ready Amazon Prime Video Other - 05 Mar 2025 28 Jun 2025" [ref=e202]:
+                    - cell "Eurozone Add-on 3" [ref=e203]:
+                      - generic [ref=e204]:
+                        - tooltip [ref=e206] [cursor=pointer]:
+                          - checkbox [ref=e207]
+                          - img [ref=e208]
+                        - tooltip "Eurozone Add-on 3" [ref=e209]
+                    - cell "Roam Ready" [ref=e210]:
+                      - tooltip "Roam Ready" [ref=e212]
+                    - cell "Amazon Prime Video" [ref=e213]:
+                      - tooltip "Amazon Prime Video" [ref=e215]
+                    - cell "Other" [ref=e216]:
+                      - tooltip "Other" [ref=e218]
+                    - cell "-" [ref=e219]:
+                      - tooltip "-" [ref=e221]
+                    - cell "05 Mar 2025" [ref=e222]:
+                      - generic [ref=e224]: 05 Mar 2025
+                    - cell "28 Jun 2025" [ref=e225]:
+                      - generic [ref=e227]: 28 Jun 2025
+                  - row "Eurozone Add-on Roam Ready Meta EDPA Other - 05 Mar 2025 29 Jun 2025" [ref=e228]:
+                    - cell "Eurozone Add-on" [ref=e229]:
+                      - generic [ref=e230]:
+                        - tooltip [ref=e232] [cursor=pointer]:
+                          - checkbox [ref=e233]
+                          - img [ref=e234]
+                        - tooltip "Eurozone Add-on" [ref=e235]
+                    - cell "Roam Ready" [ref=e236]:
+                      - tooltip "Roam Ready" [ref=e238]
+                    - cell "Meta EDPA" [ref=e239]:
+                      - tooltip "Meta EDPA" [ref=e241]
+                    - cell "Other" [ref=e242]:
+                      - tooltip "Other" [ref=e244]
+                    - cell "-" [ref=e245]:
+                      - tooltip "-" [ref=e247]
+                    - cell "05 Mar 2025" [ref=e248]:
+                      - generic [ref=e250]: 05 Mar 2025
+                    - cell "29 Jun 2025" [ref=e251]:
+                      - generic [ref=e253]: 29 Jun 2025
+                  - row "Eurozone Add-on Roam Ready Meta EDPA Other - 05 Mar 2025 28 Jun 2025" [ref=e254]:
+                    - cell "Eurozone Add-on" [ref=e255]:
+                      - generic [ref=e256]:
+                        - tooltip [ref=e258] [cursor=pointer]:
+                          - checkbox [ref=e259]
+                          - img [ref=e260]
+                        - tooltip "Eurozone Add-on" [ref=e261]
+                    - cell "Roam Ready" [ref=e262]:
+                      - tooltip "Roam Ready" [ref=e264]
+                    - cell "Meta EDPA" [ref=e265]:
+                      - tooltip "Meta EDPA" [ref=e267]
+                    - cell "Other" [ref=e268]:
+                      - tooltip "Other" [ref=e270]
+                    - cell "-" [ref=e271]:
+                      - tooltip "-" [ref=e273]
+                    - cell "05 Mar 2025" [ref=e274]:
+                      - generic [ref=e276]: 05 Mar 2025
+                    - cell "28 Jun 2025" [ref=e277]:
+                      - generic [ref=e279]: 28 Jun 2025
+                  - row "Winter Calls 3 Vibrant Voice Amazon Prime Video Other - 15 Mar 2025 19 Jul 2025" [ref=e280]:
+                    - cell "Winter Calls 3" [ref=e281]:
+                      - generic [ref=e282]:
+                        - tooltip [ref=e284] [cursor=pointer]:
+                          - checkbox [ref=e285]
+                          - img [ref=e286]
+                        - tooltip "Winter Calls 3" [ref=e287]
+                    - cell "Vibrant Voice" [ref=e288]:
+                      - tooltip "Vibrant Voice" [ref=e290]
+                    - cell "Amazon Prime Video" [ref=e291]:
+                      - tooltip "Amazon Prime Video" [ref=e293]
+                    - cell "Other" [ref=e294]:
+                      - tooltip "Other" [ref=e296]
+                    - cell "-" [ref=e297]:
+                      - tooltip "-" [ref=e299]
+                    - cell "15 Mar 2025" [ref=e300]:
+                      - generic [ref=e302]: 15 Mar 2025
+                    - cell "19 Jul 2025" [ref=e303]:
+                      - generic [ref=e305]: 19 Jul 2025
+                  - row "Winter Calls 1 Vibrant Voice Meta EDPA Other - 15 Mar 2025 20 Jul 2025" [ref=e306]:
+                    - cell "Winter Calls 1" [ref=e307]:
+                      - generic [ref=e308]:
+                        - tooltip [ref=e310] [cursor=pointer]:
+                          - checkbox [ref=e311]
+                          - img [ref=e312]
+                        - tooltip "Winter Calls 1" [ref=e313]
+                    - cell "Vibrant Voice" [ref=e314]:
+                      - tooltip "Vibrant Voice" [ref=e316]
+                    - cell "Meta EDPA" [ref=e317]:
+                      - tooltip "Meta EDPA" [ref=e319]
+                    - cell "Other" [ref=e320]:
+                      - tooltip "Other" [ref=e322]
+                    - cell "-" [ref=e323]:
+                      - tooltip "-" [ref=e325]
+                    - cell "15 Mar 2025" [ref=e326]:
+                      - generic [ref=e328]: 15 Mar 2025
+                    - cell "20 Jul 2025" [ref=e329]:
+                      - generic [ref=e331]: 20 Jul 2025
+                  - row "Winter Calls 2 Vibrant Voice Meta EDPA Other - 15 Mar 2025 20 Jul 2025" [ref=e332]:
+                    - cell "Winter Calls 2" [ref=e333]:
+                      - generic [ref=e334]:
+                        - tooltip [ref=e336] [cursor=pointer]:
+                          - checkbox [ref=e337]
+                          - img [ref=e338]
+                        - tooltip "Winter Calls 2" [ref=e339]
+                    - cell "Vibrant Voice" [ref=e340]:
+                      - tooltip "Vibrant Voice" [ref=e342]
+                    - cell "Meta EDPA" [ref=e343]:
+                      - tooltip "Meta EDPA" [ref=e345]
+                    - cell "Other" [ref=e346]:
+                      - tooltip "Other" [ref=e348]
+                    - cell "-" [ref=e349]:
+                      - tooltip "-" [ref=e351]
+                    - cell "15 Mar 2025" [ref=e352]:
+                      - generic [ref=e354]: 15 Mar 2025
+                    - cell "20 Jul 2025" [ref=e355]:
+                      - generic [ref=e357]: 20 Jul 2025
+            - contentinfo [ref=e358]:
+              - generic [ref=e359]:
+                - generic [ref=e360]:
+                  - generic [ref=e361]: "Rows:"
+                  - button "10" [ref=e363] [cursor=pointer]:
+                    - generic [ref=e364]: "10"
+                    - img [ref=e365]
+                - button "Previous" [disabled] [ref=e366]:
+                  - img [ref=e367]
+                  - generic [ref=e368]: Previous
+                - generic [ref=e369]: Page 1 of 38
+                - button "Next" [ref=e370] [cursor=pointer]:
+                  - generic [ref=e371]: Next
+                  - img [ref=e372]
+          - generic [ref=e373]:
+            - generic [ref=e375]:
+              - generic [ref=e376]:
+                - generic [ref=e377]: Selected Adverts
+                - generic [ref=e378]: The adverts you have selected are shown below.
+              - button "Download selection" [ref=e380] [cursor=pointer]
+            - table [ref=e381]:
+              - rowgroup [ref=e382]:
+                - row "Advert Brand Measured Entity Media Type TV On Air Dates Start date End date" [ref=e383]:
+                  - columnheader "Advert" [ref=e384]
+                  - columnheader "Brand" [ref=e385]
+                  - columnheader "Measured Entity" [ref=e386]
+                  - columnheader "Media Type" [ref=e387]
+                  - columnheader "TV On Air Dates" [ref=e388]
+                  - columnheader "Start date" [ref=e389]
+                  - columnheader "End date" [ref=e390]
+              - rowgroup [ref=e391]:
+                - row "tslz0QtDSMgH3dJdiOvS8uiWtNYXdA1sUg7jEvw3Dv0 VjjQAHcc4IlyGQ--LxSjmM3TirH3JS7iAIlUbhTqybg Amazon Prime Video Other - 10 Jan 2025 21 Mar 2026" [ref=e392]:
+                  - cell "tslz0QtDSMgH3dJdiOvS8uiWtNYXdA1sUg7jEvw3Dv0" [ref=e393]:
+                    - generic [ref=e394]:
+                      - tooltip [ref=e395]:
+                        - button [ref=e396] [cursor=pointer]:
+                          - img [ref=e397]
+                      - button "tslz0QtDSMgH3dJdiOvS8uiWtNYXdA1sUg7jEvw3Dv0" [ref=e398]
+                  - cell "VjjQAHcc4IlyGQ--LxSjmM3TirH3JS7iAIlUbhTqybg" [ref=e399]:
+                    - button "VjjQAHcc4IlyGQ--LxSjmM3TirH3JS7iAIlUbhTqybg" [ref=e401]
+                  - cell "Amazon Prime Video" [ref=e402]:
+                    - button "Amazon Prime Video" [ref=e404]
+                  - cell "Other" [ref=e405]:
+                    - button "Other" [ref=e407]
+                  - cell "-" [ref=e408]:
+                    - tooltip "-" [ref=e410]
+                  - cell "10 Jan 2025" [ref=e411]:
+                    - tooltip "10 Jan 2025" [ref=e413]
+                  - cell "21 Mar 2026" [ref=e414]:
+                    - tooltip "21 Mar 2026" [ref=e416]
+    - contentinfo [ref=e417]:
+      - button "Save & Continue" [ref=e419] [cursor=pointer]
+```
